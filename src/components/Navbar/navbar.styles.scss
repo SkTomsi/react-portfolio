@@ -1,0 +1,37 @@
+.navbar {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+
+.navbar__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 10rem;
+
+  /*  @media screen and (max-width: 500px) {
+    gap: 0.2rem;
+  } */
+}
+
+.navbar__Logo > img {
+  object-fit: contain;
+  height: 40px;
+}
+
+.navbar__Links {
+  color: #fff;
+  cursor: pointer;
+}
+
+.navbar__Links > a {
+  margin-left: 5rem;
+  font-size: 18px;
+  font-weight: medium;
+
+  @media screen and (max-width: 768px) {
+    margin-left: 2rem;
+  }
+}
