@@ -16,6 +16,13 @@ const HeroSection = () => {
             <p>I am a {""}</p>
             <TypeRoles />
           </div>
+          <div className="hero__short-intro">
+            <p>
+              Final Year Computer Engineering student from Mumbai, working on
+              freelance User Experience Design since a year and currently
+              learning ReactJS and React Native
+            </p>
+          </div>
         </div>
         <div className="hero__CTA">
           <button>Check out my works!</button>

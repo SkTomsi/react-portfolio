@@ -29,14 +29,15 @@
   }
 
   > h1 {
-    padding-top: 5rem;
+    padding: 2rem;
     font-size: 4rem;
     font-weight: bold;
     line-height: 100px;
 
     @media screen and (max-width: 768px) {
-      padding-top: 1rem;
-      font-size: 3.8rem;
+      font-size: 3rem;
+      line-height: 80px;
+      padding: 1rem;
     }
   }
 
@@ -48,10 +49,8 @@
   }
 
   .hero__intro-type {
-    margin-top: 3rem;
-    font-size: 2rem;
+    font-size: 3vh;
     display: flex;
-    align-items: center;
     justify-content: center;
     gap: 10px;
 
@@ -59,13 +58,34 @@
       margin-top: 2rem;
     }
   }
+
+  .hero__short-intro {
+    padding-top: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    > p {
+      padding-top: 0.2rem;
+      color: #4e4e4e;
+      width: 50%;
+      text-align: center;
+    }
+
+    @media screen and (max-width: 768px) {
+      > p {
+        width: 80%;
+      }
+    }
+  }
 }
 
 .hero__CTA > button {
-  margin-top: 2rem;
+  margin-top: 4rem;
   background-color: #911ae5;
   padding: 1rem 2rem;
   border-radius: 10px;
   font-size: 20px;
   cursor: pointer;
+  border: none;
 }
