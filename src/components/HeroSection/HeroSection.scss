@@ -4,7 +4,7 @@
   text-align: center;
   transition: all 0.3s;
 
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 960px) {
     margin-top: 3rem;
   }
 }
@@ -23,7 +23,7 @@
     font-size: 1.8rem;
     font-weight: 200;
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 960px) {
       font-size: 1.5rem;
     }
   }
@@ -34,7 +34,7 @@
     font-weight: bold;
     line-height: 100px;
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 960px) {
       font-size: 3rem;
       line-height: 80px;
       padding: 1rem;
@@ -54,7 +54,7 @@
     justify-content: center;
     gap: 10px;
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 960px) {
       margin-top: 2rem;
     }
   }
@@ -72,7 +72,7 @@
       text-align: center;
     }
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 960px) {
       > p {
         width: 80%;
         font-size: 0.9rem;

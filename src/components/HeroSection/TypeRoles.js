@@ -12,7 +12,8 @@ function TypeRoles() {
           ],
           autoStart: true,
           loop: true,
-          deleteSpeed: 50,
+          deleteSpeed: 40,
+          speed: 60,
         }}
       />
     </div>

@@ -4,6 +4,7 @@
   justify-content: center;
   margin-top: 2rem;
   width: 100%;
+  transition: all 0.3s;
 }
 
 .navbar__container {
@@ -17,9 +18,32 @@
   } */
 }
 
-.navbar__Logo > img {
-  object-fit: contain;
-  height: 4rem;
+.navbar__Logo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 8px;
+
+  .mobileLogo {
+    display: none;
+
+    @media screen and (max-width: 960px) {
+      display: flex;
+      object-fit: contain;
+      height: 4rem;
+    }
+  }
+
+  > img {
+    object-fit: contain;
+    height: 4rem;
+  }
+
+  @media (max-width: 960px) {
+    > img {
+      display: none;
+    }
+  }
 }
 
 .navbar__Links {
