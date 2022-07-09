@@ -3,13 +3,14 @@
   display: flex;
   justify-content: center;
   margin-top: 2rem;
+  width: 100%;
 }
 
 .navbar__container {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  gap: 10rem;
+  width: 80%;
 
   /*  @media screen and (max-width: 500px) {
     gap: 0.2rem;
@@ -18,20 +19,29 @@
 
 .navbar__Logo > img {
   object-fit: contain;
-  height: 40px;
+  height: 4rem;
 }
 
 .navbar__Links {
   color: #fff;
   cursor: pointer;
+  transition: all 0.3s;
+
+  .active {
+    background-color: rgba(255, 255, 255, 0.04);
+  }
+
+  :hover {
+    color: #911ae5;
+    background-color: rgba(255, 255, 255, 0.04);
+  }
 }
 
 .navbar__Links > a {
-  margin-left: 5rem;
-  font-size: 18px;
+  margin-left: 30px;
+  font-size: 1rem;
   font-weight: medium;
-
-  @media screen and (max-width: 768px) {
-    margin-left: 2rem;
-  }
+  transition: all 0.3s;
+  padding: 8px 12px;
+  border-radius: 12px;
 }

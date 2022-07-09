@@ -10,7 +10,9 @@ const Navbar = () => {
           <img src={TDLogo} alt="Logo" />
         </div>
         <div className="navbar__Links">
-          <Link to="works">Works</Link>
+          <Link class="active" to="works">
+            Works
+          </Link>
           <Link to="about">About</Link>
           <Link to="contact">Contact</Link>
         </div>
