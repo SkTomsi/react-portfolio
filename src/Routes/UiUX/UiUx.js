@@ -9,9 +9,9 @@ const UiUx = () => {
       }}
     >
       <div className="ui-ux__container" s>
-        <marquee behavior="" direction="">
+        <h1 style={{ textAlign: "center" }}>
           This Section is under development
-        </marquee>
+        </h1>
       </div>
     </div>
   );
