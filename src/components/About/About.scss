@@ -22,9 +22,16 @@
   .about__container > p {
     font-size: 1rem;
     margin-bottom: 2rem;
+    color: #656565;
   }
 }
 
 .about:hover {
+  transition: all 0.3s ease-in-out;
   background-color: #911ae5;
+
+  .about__container > p {
+    transition: all 0.3s ease-in-out;
+    color: rgb(187, 187, 187);
+  }
 }
