@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 import "./CategoryItem.scss";
 
 export const CategoryItem = ({ category }) => {
@@ -9,8 +9,9 @@ export const CategoryItem = ({ category }) => {
         <h4>{category.title}</h4>
         <p>{category.desc}</p>
       </div>
-
-      <button>view</button>
+      <Link className="category-item__Link" to="/ui-ux">
+        <button>view</button>
+      </Link>
     </div>
   );
 };
