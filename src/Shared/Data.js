@@ -12,6 +12,6 @@ export const Categories = [
   {
     id: 3,
     title: "graphic design",
-    desc: "I started learning graphic designing during the start of my second year in college, I'm having 2 years of experience in graphic designing and here are few of my works",
+    desc: "2 years of experience in graphic designing and here are few of my works",
   },
 ];
