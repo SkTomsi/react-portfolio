@@ -85,7 +85,7 @@
 }
 
 .hero__CTA {
-  > button {
+  .hero__CTA-button-link > button {
     margin-top: 4rem;
     background-color: #cc84ff;
     padding: 20px 40px;
@@ -95,9 +95,9 @@
     border: none;
   }
 
-  :hover {
+  .hero__CTA-button-link > button:hover {
     transition: 0.3s;
-    background-color: #deb0ff;
+    background-color: #edd5ff;
     color: #911ae5;
   }
 }

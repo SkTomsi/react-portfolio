@@ -1,6 +1,7 @@
 import React from "react";
 import TypeRoles from "./TypeRoles";
 import "./HeroSection.scss";
+import { Link } from "react-scroll";
 
 const HeroSection = () => {
   return (
@@ -25,7 +26,14 @@ const HeroSection = () => {
           </div>
         </div>
         <div className="hero__CTA">
-          <button to="works-section">Check out my works!</button>
+          <Link
+            to="works-section"
+            smooth={true}
+            duration="1000"
+            className="hero__CTA-button-link"
+          >
+            <button>Check out my works!</button>
+          </Link>
         </div>
       </div>
     </div>
