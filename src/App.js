@@ -1,14 +1,22 @@
 import "./App.css";
-import HeroSection from "./components/HeroSection/";
+
+import { Routes, Route } from "react-router-dom";
+import UiUx from "./components/Routes/UiUX/UiUx";
+import Home from "./components/Routes/Home/Home";
 import Navbar from "./components/Navbar";
-import WorksCategory from "./components/WorksCategory";
 
 function App() {
   return (
-    <div>
+    <div className="App">
       <Navbar />
-      <HeroSection />
-      <WorksCategory />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/ui-ux" element={<UiUx />} />
+      </Routes>
+
+      {/*  <Navbar />
+        <HeroSection />
+        <WorksCategory /> */}
     </div>
   );
 }
