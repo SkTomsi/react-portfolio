@@ -1,11 +1,30 @@
 .about {
-  padding: 5rem;
-  /*   display: grid;
-  grid-template-columns: 30% 70%; */
+  transition: all 0.3s ease-in-out;
+  margin-top: 8rem;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  padding: 2rem 5rem;
+  background: linear-gradient(
+    150deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(29, 29, 29, 0.919) 0%,
+    rgb(21, 21, 21) 100%
+  );
+
+  @media screen and (max-width: 960px) {
+    padding: 2rem 2rem;
+  }
+
+  > h1 {
+    font-size: 2.5rem;
+  }
 
   .about__container > p {
-    font-size: 18px;
-    margin-top: 2rem;
-    width: 60%;
+    font-size: 1rem;
+    margin-bottom: 2rem;
   }
+}
+
+.about:hover {
+  background-color: #911ae5;
 }
