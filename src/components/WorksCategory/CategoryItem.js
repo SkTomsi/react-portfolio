@@ -6,7 +6,7 @@ export const CategoryItem = ({ category }) => {
   return (
     <div className="category-item__container">
       <h4>{category.title}</h4>
-      <button>View</button>
+      <button>view</button>
     </div>
   );
 };

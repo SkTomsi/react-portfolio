@@ -1,14 +1,14 @@
 export const Categories = [
   {
     id: 1,
-    title: "UI/UX",
+    title: "ui ux design",
   },
   {
     id: 2,
-    title: "Dev Projects",
+    title: "dev Projects",
   },
   {
     id: 3,
-    title: "Graphic Design",
+    title: "graphic design",
   },
 ];
