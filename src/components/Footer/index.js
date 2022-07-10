@@ -5,7 +5,9 @@ function Footer() {
   return (
     <div className="Footer">
       &copy; Copyright 2022, designed & developed by{" "}
-      <a href="https://github.com/TomcyT">Tomcy Thomas</a>
+      <a href="https://github.com/TomcyT" target="_blank" rel="noreferrer">
+        Tomcy Thomas
+      </a>
     </div>
   );
 }
