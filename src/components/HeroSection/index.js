@@ -10,8 +10,8 @@ const HeroSection = () => {
         <div className="hero__intro">
           <p>Hi! my name is Tomcy, I love </p>
           <h1>
-            Building <span className="hero__color">websites</span> and{" "}
-            <span className="hero__color">experiences</span>.
+            building <span className="hero__color">Websites</span> and{" "}
+            <span className="hero__color">Experiences</span>.
           </h1>
           <div className="hero__intro-type">
             <p>I am a {""}</p>
