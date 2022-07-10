@@ -1,5 +1,4 @@
-@import url("http://fonts.cdnfonts.com/css/dashboard");
-
+@import url("https://fonts.googleapis.com/css2?family=Poller+One&display=swap");
 .hero-section {
   margin-top: 6rem;
   align-items: center;
@@ -31,9 +30,10 @@
   }
 
   > h1 {
+    font-family: "Poller One", cursive;
     padding: 2rem;
     font-size: 4rem;
-    font-weight: bold;
+    font-weight: 600;
     line-height: 100px;
 
     @media screen and (max-width: 960px) {
@@ -44,8 +44,8 @@
   }
 
   .hero__color {
-    font-family: "Dashboard", sans-serif;
-    color: #911ae5;
+    font-family: "Poller One", cursive;
+    color: #cc84ff;
     background-color: rgba(255, 255, 255, 0.04);
     padding: 8px 12px;
     border-radius: 22px;
@@ -87,7 +87,7 @@
 .hero__CTA {
   > button {
     margin-top: 4rem;
-    background-color: #911ae5;
+    background-color: #cc84ff;
     padding: 20px 40px;
     border-radius: 10px;
     font-size: 20px;
