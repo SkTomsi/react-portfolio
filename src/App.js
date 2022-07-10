@@ -1,9 +1,9 @@
 import "./App.css";
 
 import { Routes, Route } from "react-router-dom";
-import UiUx from "./components/Routes/UiUX/UiUx";
-import Home from "./components/Routes/Home/Home";
 import Navbar from "./components/Navbar";
+import Home from "./Routes/Home/Home";
+import UiUx from "./Routes/UiUX/UiUx";
 
 function App() {
   return (

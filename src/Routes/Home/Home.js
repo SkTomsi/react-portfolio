@@ -1,8 +1,7 @@
 import React from "react";
-import WorksCategory from "../../WorksCategory";
-import HeroSection from "../../HeroSection";
-import About from "../../About";
-
+import HeroSection from "../../components/HeroSection";
+import WorksCategory from "../../components/WorksCategory";
+import About from "../../components/About";
 function Home() {
   return (
     <div id="home">

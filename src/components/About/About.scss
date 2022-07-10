@@ -1,4 +1,11 @@
 .about {
   padding: 5rem;
-  display: grid;
+  /*   display: grid;
+  grid-template-columns: 30% 70%; */
+
+  .about__container > p {
+    font-size: 18px;
+    margin-top: 2rem;
+    width: 60%;
+  }
 }
