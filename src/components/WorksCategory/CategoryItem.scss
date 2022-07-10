@@ -19,15 +19,23 @@
     height: 400px;
   }
 
-  > h4 {
-    color: #cc84ff;
-    font-size: 4rem;
+  .category-item__header {
+    > h4 {
+      color: #cc84ff;
+      font-size: 4rem;
 
-    @media screen and (max-width: 960px) {
-      font-size: 3rem;
+      @media screen and (max-width: 960px) {
+        font-size: 3rem;
+      }
+    }
+
+    > p {
+      padding-top: 1.2rem;
+      color: #4e4e4e;
+      width: 80%;
+      line-height: 1.2rem;
     }
   }
-
   > button {
     border: none;
     font-size: 18px;
