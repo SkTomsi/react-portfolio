@@ -1,3 +1,5 @@
+@import url("http://fonts.cdnfonts.com/css/dashboard");
+
 .hero-section {
   margin-top: 6rem;
   align-items: center;
@@ -42,6 +44,7 @@
   }
 
   .hero__color {
+    font-family: "Dashboard", sans-serif;
     color: #911ae5;
     background-color: rgba(255, 255, 255, 0.04);
     padding: 8px 12px;
@@ -81,12 +84,20 @@
   }
 }
 
-.hero__CTA > button {
-  margin-top: 4rem;
-  background-color: #911ae5;
-  padding: 1rem 2rem;
-  border-radius: 10px;
-  font-size: 20px;
-  cursor: pointer;
-  border: none;
+.hero__CTA {
+  > button {
+    margin-top: 4rem;
+    background-color: #911ae5;
+    padding: 20px 40px;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    border: none;
+  }
+
+  :hover {
+    transition: 0.3s;
+    background-color: #deb0ff;
+    color: #911ae5;
+  }
 }

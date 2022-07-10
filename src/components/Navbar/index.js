@@ -8,13 +8,19 @@ const Navbar = () => {
     <div className="navbar">
       <div className="navbar__container">
         <div className="navbar__Logo">
-          <img src={TDLogo} alt="Logo" />
-          <div className="mobileLogo">
-            <img src={TDMobile} alt="Logo" />
-          </div>
+          <Link className="navbar__logo-link" to="home">
+            <img src={TDLogo} alt="Logo" />
+            <div className="mobileLogo">
+              <img src={TDMobile} alt="Logo" />
+            </div>
+          </Link>
         </div>
         <div className="navbar__Links">
-          <Link class="active" to="works">
+          <Link
+            /* class="active" */ to="works-section"
+            smooth={true}
+            duration="1000"
+          >
             Works
           </Link>
           <Link to="about">About</Link>

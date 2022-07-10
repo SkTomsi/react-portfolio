@@ -4,7 +4,7 @@ import "./HeroSection.scss";
 
 const HeroSection = () => {
   return (
-    <div className="hero-section">
+    <div className="hero-section" id="hero-section">
       <div className="hero__container">
         <div className="hero__intro">
           <p>Hi! my name is Tomcy, I love </p>
@@ -25,7 +25,7 @@ const HeroSection = () => {
           </div>
         </div>
         <div className="hero__CTA">
-          <button>Check out my works!</button>
+          <button to="works-section">Check out my works!</button>
         </div>
       </div>
     </div>
