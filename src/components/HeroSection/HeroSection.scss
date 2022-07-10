@@ -1,4 +1,4 @@
-@import url("http://fonts.cdnfonts.com/css/bizmo-trial");
+@import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap");
 .hero-section {
   margin-top: 6rem;
   align-items: center;
@@ -31,7 +31,7 @@
 
   > h1 {
     padding: 2rem;
-    font-family: "Bizmo Trial", sans-serif;
+    font-family: "Dela Gothic One", cursive;
     font-size: 4rem;
     font-weight: 200;
     line-height: 100px;
@@ -44,7 +44,7 @@
   }
 
   .hero__color {
-    font-family: "Bizmo Trial", sans-serif;
+    font-family: "Dela Gothic One", cursive;
     color: #cc84ff;
     background-color: rgba(255, 255, 255, 0.04);
     padding: 8px 12px;
@@ -88,12 +88,13 @@
 .hero__CTA {
   .hero__CTA-button-link > button {
     margin-top: 4rem;
-    background-color: #cc84ff;
+    background-color: #4e4e4e;
     padding: 20px 40px;
     border-radius: 10px;
     font-size: 20px;
     cursor: pointer;
     border: none;
+    color: #edd5ff;
   }
 
   .hero__CTA-button-link > button:hover {
