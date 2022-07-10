@@ -1,5 +1,5 @@
 import React from "react";
-import Img from "../../assets/card1.png";
+
 import "./CategoryItem.scss";
 
 export const CategoryItem = ({ category }) => {
