@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap");
+@import url("http://fonts.cdnfonts.com/css/mark-pro");
 .hero-section {
-  margin-top: 6rem;
+  margin-top: 4rem;
   align-items: center;
   text-align: center;
   transition: all 0.3s;
@@ -30,10 +31,10 @@
   }
 
   > h1 {
-    padding: 2rem;
-    font-family: "Dela Gothic One", cursive;
-    font-size: 4rem;
-    font-weight: 200;
+    padding: 1rem 10vw;
+    font-family: "Mark Pro", sans-serif;
+    font-size: 6rem;
+    font-weight: 800;
     line-height: 100px;
 
     @media screen and (max-width: 960px) {
@@ -44,11 +45,15 @@
   }
 
   .hero__color {
-    font-family: "Dela Gothic One", cursive;
-    color: #cc84ff;
-    background-color: rgba(255, 255, 255, 0.04);
+    font-family: "Mark Pro", sans-serif;
+    font-weight: 800;
+    /* color: #cc84ff;
+    background-color: rgba(255, 255, 255, 0.03);
     padding: 8px 12px;
-    border-radius: 22px;
+    border-radius: 22px; */
+    color: transparent;
+    background: linear-gradient(to right, #cc84ff 20%, #e4beff 100%);
+    background-clip: text;
   }
 
   .hero__intro-type {
@@ -64,10 +69,10 @@
   }
 
   .hero__short-intro {
-    padding-top: 0.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 0.5rem;
 
     > p {
       padding-top: 0.2rem;
@@ -96,6 +101,11 @@
     cursor: pointer;
     border: none;
     color: #121212;
+
+    @media screen and (max-width: 960px) {
+      margin-top: 2rem;
+      font-size: 14px;
+    }
   }
 
   .hero__CTA-button-link > button:hover {

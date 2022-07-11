@@ -10,8 +10,8 @@ const HeroSection = () => {
         <div className="hero__intro">
           <p>Hi! my name is Tomcy, I love </p>
           <h1>
-            building <span className="hero__color">Websites</span> and{" "}
-            <span className="hero__color">Experiences</span>.
+            building <span className="hero__color">websites</span> and{" "}
+            <span className="hero__color">experiences</span>.
           </h1>
           <div className="hero__intro-type">
             <p>I am a {""}</p>
@@ -19,9 +19,9 @@ const HeroSection = () => {
           </div>
           <div className="hero__short-intro">
             <p>
-              Final Year Computer Engineering student from Mumbai, working on
+              Final Year Computer Engineering student from Mumbai, working as a
               freelance User Experience Design since a year and currently
-              learning ReactJS and React Native
+              building cool stuff with ReactJS and React Native
             </p>
           </div>
         </div>

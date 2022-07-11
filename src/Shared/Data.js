@@ -1,7 +1,7 @@
 export const Categories = [
   {
     id: 1,
-    title: "ui ux design",
+    title: "ui ux designs",
     desc: "A few of my user experience designs completed during my Third Year",
   },
   {
@@ -11,7 +11,7 @@ export const Categories = [
   },
   {
     id: 3,
-    title: "graphic design",
+    title: "graphic designs",
     desc: "2 years of experience in graphic designing and here are few of my works",
   },
 ];
