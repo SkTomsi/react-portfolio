@@ -29,7 +29,6 @@ const HeroSection = () => {
           <Link
             to="works-section"
             smooth={true}
-            duration="1000"
             className="hero__CTA-button-link"
           >
             <button>Check out my works!</button>

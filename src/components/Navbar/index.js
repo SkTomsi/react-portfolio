@@ -17,17 +17,13 @@ const Navbar = () => {
           </LinkR>
         </div>
         <div className="navbar__Links">
-          <LinkS
-            /* class="active" */ to="works-section"
-            smooth={true}
-            duration="1000"
-          >
+          <LinkS /* class="active" */ to="works-section" smooth={true}>
             Works
           </LinkS>
-          <LinkS to="about" smooth={true} duration="1000">
+          <LinkS to="about" smooth={true}>
             About
           </LinkS>
-          <LinkS to="contact" smooth={true} duration="1000">
+          <LinkS to="contact" smooth={true}>
             Contact
           </LinkS>
         </div>

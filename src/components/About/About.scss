@@ -35,7 +35,17 @@
 
   .about__container > p {
     transition: all 0.3s ease-in-out;
-    color: rgb(187, 187, 187);
+    color: #fff;
+  }
+
+  .skills__list {
+    > h2 {
+      color: rgb(192, 192, 192) !important;
+    }
+
+    > ul > li {
+      color: #fff !important;
+    }
   }
 }
 
@@ -64,16 +74,18 @@
         text-align: center;
 
         > h2 {
+          padding-bottom: 1rem;
           font-size: 1.8rem;
+          color: #656565;
         }
         > ul {
-          padding-bottom: 3rem;
           list-style: none;
           font-size: 1rem;
-        }
 
-        > li {
-          padding-bottom: 5px;
+          > li {
+            color: #656565;
+            padding-bottom: 5px;
+          }
         }
       }
     }
