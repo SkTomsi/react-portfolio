@@ -49,33 +49,19 @@ const About = () => {
               </ul>
             </div>
             <div className="skills__list">
-              <h2>Tech Stack</h2>
+              <h2>Design Tools</h2>
               <ul>
-                <li>React Js</li>
-                <li>Javascript</li>
-                <li>React Native</li>
-                <li>PHP</li>
-                <li>CSS</li>
-                <li>SASS</li>
-                <li>Styled Components</li>
-                <li>Redux</li>
-                <li>MySql</li>
-                <li>Firebase</li>
+                <li>Figma</li>
+                <li>Photoshop</li>
+                <li>Illustrator</li>
               </ul>
             </div>
             <div className="skills__list">
-              <h2>Tech Stack</h2>
+              <h2>Expertise</h2>
               <ul>
-                <li>React Js</li>
-                <li>Javascript</li>
-                <li>React Native</li>
-                <li>PHP</li>
-                <li>CSS</li>
-                <li>SASS</li>
-                <li>Styled Components</li>
-                <li>Redux</li>
-                <li>MySql</li>
-                <li>Firebase</li>
+                <li>UI UX Design</li>
+                <li>Graphic Design</li>
+                <li>Development</li>
               </ul>
             </div>
           </div>

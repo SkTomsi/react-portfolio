@@ -53,15 +53,27 @@
     }
 
     .skills__type {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(30px, 1fr));
 
+      @media screen and (max-width: 960px) {
+        display: flex;
+        flex-direction: column;
+      }
       .skills__list {
         text-align: center;
+
+        > h2 {
+          font-size: 1.8rem;
+        }
         > ul {
+          padding-bottom: 3rem;
           list-style: none;
           font-size: 1rem;
+        }
+
+        > li {
+          padding-bottom: 5px;
         }
       }
     }
