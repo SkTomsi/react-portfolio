@@ -1,8 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800&display=swap');
 @import url("http://fonts.cdnfonts.com/css/mark-pro");
+@import url('http://fonts.cdnfonts.com/css/campton');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Rubik:wght@300;400;500;600;700;800&display=swap');
 
 * {
-    font-family: 'Mark Pro', sans-serif;
+    font-family: 'Mark Pro', 'Campton', 'Rubik';
     margin: 0;
     padding: 0;
     box-sizing: border-box;

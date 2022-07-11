@@ -40,7 +40,7 @@
 
   .skills__list {
     > h2 {
-      color: rgb(192, 192, 192) !important;
+      color: rgb(255, 255, 255) !important;
     }
 
     > ul > li {
@@ -74,6 +74,7 @@
         text-align: center;
 
         > h2 {
+          transition: all 0.3s ease-in-out;
           padding-bottom: 1rem;
           font-size: 1.8rem;
           color: #656565;
@@ -83,6 +84,7 @@
           font-size: 1rem;
 
           > li {
+            transition: all 0.3s ease-in-out;
             color: #656565;
             padding-bottom: 5px;
           }
