@@ -14,13 +14,12 @@ const HeroSection = () => {
             <span className="hero__color">experiences</span>.
           </h1>
           <div className="hero__intro-type">
-            <p>I am a {""}</p>
             <TypeRoles />
           </div>
           <div className="hero__short-intro">
             <p>
               Final Year Computer Engineering student from Mumbai, working as a
-              freelance User Experience Design since a year and currently
+              freelance User Experience Designer since a year and currently
               building cool stuff with ReactJS and React Native
             </p>
           </div>

@@ -9,16 +9,15 @@ const About = () => {
         <div className="about__container">
           <p>
             I'm a self-taught UI/UX and Graphic Designer who is now learning
-            React JS and React Native. I'm pursuing my final-year in Computer
-            Engineering Bachelor's Degree from Pillai College of Engineering,
-            graduation in 2023.
+            React JS and React Native. I'm pursuing my Bachelor's Degree in
+            Computer Engineering from Pillai College of Engineering, graduation
+            in 2023.
           </p>
           <p>
-            I have more than a year of experience in designing. I've worked as a
-            freelance designer as well as helped many clients, colleagues get
-            their ideas designed. I've also worked as a UX designer for both
-            mobile and web platforms. I worked as a UI/UX designer for the
-            official website of our collegiate festival Alegria.
+            I have more than a year of experience in User Experience designing.
+            I've worked as a freelance designer and helped many clients,
+            colleagues get their ideas designed. I worked as a UI/UX designer
+            for the official website of our collegiate festival Alegria.
           </p>
           <p>
             I have two years of graphic design expertise. As part of my career,

@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link } from "react-scroll";
 import "./CategoryItem.scss";
 
 export const CategoryItem = ({ category }) => {
@@ -9,7 +9,11 @@ export const CategoryItem = ({ category }) => {
         <h4>{category.title}</h4>
         <p>{category.desc}</p>
       </div>
-      <Link className="category-item__Link" to="/ui-ux">
+      <Link
+        className="category-item__Link"
+        to={category.scrollComponent}
+        smooth={true}
+      >
         <button>view</button>
       </Link>
     </div>
