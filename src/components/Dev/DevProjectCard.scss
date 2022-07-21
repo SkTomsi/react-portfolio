@@ -44,11 +44,12 @@
   .dev-project-card__button {
     > a > button {
       color: #fff;
-      padding: 12px 18px;
+      padding: 18px 32px;
+      font-size: 1rem;
       margin-top: 2rem;
       background-color: transparent;
       border: 1px solid #cc84ff;
-      border-radius: 10px;
+      border-radius: 20px;
       outline: none;
       cursor: pointer;
     }
@@ -61,11 +62,11 @@
       padding: 1.4rem;
       border-radius: 30px;
       background-color: rgba(255, 255, 255, 0.041);
-      margin-top: 1rem;
-      height: 500px;
+
+      max-height: 6000px;
       display: flex;
       flex-direction: column;
-      justify-content: space-evenly;
+      justify-content: space-between;
       flex-wrap: wrap;
     }
 
