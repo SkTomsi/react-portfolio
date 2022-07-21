@@ -1,7 +1,14 @@
 .dev-project__grid {
+  margin: 0 5rem;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(20rem, 30rem));
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 30rem));
   justify-content: center;
   grid-column-gap: 8rem;
   grid-row-gap: 2rem;
+}
+
+@media screen and (max-width: 60em) {
+  .dev-project__grid {
+    margin: 0 2rem;
+  }
 }
