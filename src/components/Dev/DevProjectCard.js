@@ -21,7 +21,7 @@ const DevProjectCard = ({ development }) => {
         </div>
         <div className="dev-project-card__button">
           <a href={link} target="_blank" rel="noreferrer">
-            <button>Check out !</button>
+            <button>check out !</button>
           </a>
         </div>
       </div>
