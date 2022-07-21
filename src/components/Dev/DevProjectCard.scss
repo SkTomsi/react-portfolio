@@ -1,55 +1,54 @@
 .dev-project-card {
-  border-radius: 22px;
-  max-width: 500px;
-  max-height: 600px;
-  background-color: rgba(255, 255, 255, 0.036);
-}
-
-.dev-project-card__container {
-  border-radius: 22px;
-  padding: 1rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 2rem;
-
-  @media screen and (max-width: 960px) {
-    object-fit: contain;
-    height: auto;
-  }
-}
-
-.dev-project__right {
-  .dev-project-card__title > h3 {
-    font-size: 2.5rem;
-  }
-}
-
-@media screen and (max-width: 960px) {
   .dev-project-card__container {
-    .dev-project-card__image {
-      > img {
-        border-radius: 12px;
-        object-fit: cover;
-        height: auto;
+    padding: 1.4rem;
+    border-radius: 30px;
+    background-color: rgba(255, 255, 255, 0.041);
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+    .dev-project__details {
+      .dev-project-card__image {
+        > img {
+          width: 100%;
+          height: 22rem;
+          object-fit: cover;
+          border-radius: 12px;
+        }
+      }
+
+      .dev-project-card__title {
+        padding-top: 1rem;
+        font-size: 2rem;
+        line-height: 40px;
+      }
+
+      .dev-project-card__description {
+        padding-top: 0.8rem;
+        > p {
+          font-size: 1rem;
+          color: #9f9f9f;
+        }
+      }
+
+      .dev-project-card__stack {
+        padding-top: 1.5rem;
+        color: #ce8dff;
       }
     }
-  }
-
-  .dev-project__right {
-    .dev-project-card__title > h3 {
-      font-size: 1.8rem;
-    }
-
-    .dev-project-card__description {
-      margin-top: 1rem;
-      font-weight: 300;
-    }
-
-    .dev-project-card__stack {
-      margin-top: 2rem;
-      color: #cc84ff;
-      font-weight: 600;
+    .dev-project-card__button {
+      > a > button {
+        color: #fff;
+        padding: 12px 18px;
+        margin-top: 2rem;
+        background-color: transparent;
+        border: 1px solid #cc84ff;
+        border-radius: 10px;
+        outline: none;
+        cursor: pointer;
+      }
     }
   }
 }
