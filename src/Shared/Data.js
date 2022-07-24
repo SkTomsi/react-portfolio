@@ -76,14 +76,14 @@ export const GfxDesigns = [
   },
   {
     id: 3,
-    path: require("../assets/gfx/AbhishekUpmanyu.png"),
+    path: require("../assets/gfx/AtriumBanner 1.png"),
   },
   {
     id: 4,
-    path: require("../assets/gfx/AbhishekUpmanyu.png"),
+    path: require("../assets/gfx/ID.png"),
   },
   {
     id: 5,
-    path: require("../assets/gfx/AbhishekUpmanyu.png"),
+    path: require("../assets/gfx/PublicityPoster.jpg"),
   },
 ];
