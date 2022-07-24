@@ -34,7 +34,7 @@ export const DevelopmentProjects = [
   {
     id: 1,
     title: "CampusTrack",
-    desc: "A Web Application based vehicle identification system . ",
+    desc: "A Web Application based vehicle identification system",
     stack: "PHP, MYSQL, HTML, CSS",
     link: "https://github.com/TomcyT",
     image: require("../assets/developmentProjects/test.png"),
@@ -59,8 +59,31 @@ export const DevelopmentProjects = [
     id: 4,
     title: "Bug Tracking System",
     desc: "A software application that is designed to help programmers to keep track of reported software bugs in their work",
-    stack: "React, MongoDB, Heroku",
+    stack: "ReactJs, NodeJs, Express, Mongodb, JsonWebTokens",
     link: "https://github.com/TomcyT",
     image: require("../assets/developmentProjects/test.png"),
+  },
+];
+
+export const GfxDesigns = [
+  {
+    id: 1,
+    path: require("../assets/gfx/AbhishekUpmanyu.png"),
+  },
+  {
+    id: 2,
+    path: require("../assets/gfx/AK_STORY.jpg"),
+  },
+  {
+    id: 3,
+    path: require("../assets/gfx/AbhishekUpmanyu.png"),
+  },
+  {
+    id: 4,
+    path: require("../assets/gfx/AbhishekUpmanyu.png"),
+  },
+  {
+    id: 5,
+    path: require("../assets/gfx/AbhishekUpmanyu.png"),
   },
 ];

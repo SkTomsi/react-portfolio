@@ -33,7 +33,7 @@
     @media screen and (max-width: 960px) {
       display: flex;
       object-fit: contain;
-      height: 4rem;
+      height: 3rem;
     }
   }
 
@@ -72,4 +72,10 @@
   padding: 8px 12px;
   border-radius: 12px;
   text-decoration: none;
+}
+
+@media screen and (max-width: 400px) {
+  .navbar__Links > a {
+    font-size: 0.8rem;
+  }
 }

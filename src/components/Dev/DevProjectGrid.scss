@@ -1,5 +1,13 @@
+.dev-project__container {
+  > h1 {
+    text-align: center;
+    margin-top: 8rem;
+    font-size: 2.5rem;
+  }
+}
+
 .dev-project__grid {
-  margin: 0 5rem;
+  margin: 2rem 5rem;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(10rem, 30rem));
   justify-content: center;

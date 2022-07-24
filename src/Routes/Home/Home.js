@@ -5,6 +5,7 @@ import About from "../../components/About";
 import Footer from "../../components/Footer";
 import UIUX from "../../components/userExperienceSection";
 import DevProjects from "../../components/Dev";
+import Gfx from "../../components/GfxSection";
 function Home() {
   return (
     <div id="home">
@@ -12,6 +13,7 @@ function Home() {
       <WorksCategory />
       <UIUX />
       <DevProjects />
+      <Gfx />
       <About />
       <Footer />
     </div>

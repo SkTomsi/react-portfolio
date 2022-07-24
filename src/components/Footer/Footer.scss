@@ -12,3 +12,9 @@
     text-decoration: none;
   }
 }
+
+@media screen and (max-width: 400px) {
+  .Footer{
+    font-size: 0.8rem;
+  }
+}
