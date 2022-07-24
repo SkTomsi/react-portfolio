@@ -3,7 +3,7 @@ import React from "react";
 import "./DevProjectCard.scss";
 
 const DevProjectCard = ({ development }) => {
-  const { title, image, desc, link, stack, color } = development;
+  const { title, desc, link, stack, color } = development;
   return (
     <div className="dev-project-card">
       <div className="dev-project-card__container">
