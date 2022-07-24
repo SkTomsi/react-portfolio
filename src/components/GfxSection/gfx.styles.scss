@@ -1,0 +1,16 @@
+@media screen and (max-width: 500px) {
+  .gfx-container {
+    text-align: center;
+    margin-top: 8rem;
+
+    h1 {
+      padding-bottom: 2rem;
+    }
+    img {
+      object-fit: contain;
+      height: 90vw;
+      border-radius: 22px;
+      padding-bottom: 1rem;
+    }
+  }
+}
