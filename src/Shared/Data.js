@@ -38,6 +38,7 @@ export const DevelopmentProjects = [
     stack: "PHP, MYSQL, HTML, CSS",
     link: "https://github.com/TomcyT",
     image: require("../assets/developmentProjects/test.png"),
+    color: "#CDF0EA",
   },
   {
     id: 2,
@@ -46,6 +47,7 @@ export const DevelopmentProjects = [
     stack: "Python",
     link: "https://github.com/TomcyT",
     image: require("../assets/developmentProjects/test.png"),
+    color: "#FAF4B7",
   },
   {
     id: 3,
@@ -54,6 +56,7 @@ export const DevelopmentProjects = [
     stack: "PHP, MYSQL, HTML, CSS",
     link: "https://github.com/TomcyT",
     image: require("../assets/developmentProjects/test.png"),
+    color: "#FFE6E6",
   },
   {
     id: 4,
@@ -62,6 +65,7 @@ export const DevelopmentProjects = [
     stack: "ReactJs, NodeJs, Express, Mongodb, JsonWebTokens",
     link: "https://github.com/TomcyT",
     image: require("../assets/developmentProjects/test.png"),
+    color: "#CCF3EE",
   },
 ];
 
