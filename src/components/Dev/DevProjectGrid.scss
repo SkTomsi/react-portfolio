@@ -7,6 +7,7 @@
 }
 
 .dev-project__grid {
+  padding-top: 2rem;
   margin: 2rem 5rem;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(10rem, 30rem));
@@ -18,5 +19,6 @@
 @media screen and (max-width: 60em) {
   .dev-project__grid {
     margin: 0 2rem;
+    grid-row-gap: 1rem;
   }
 }

@@ -12,7 +12,28 @@
 .works__items {
   padding-top: 2rem;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(30%, 30%));
   grid-column-gap: 3rem;
   grid-row-gap: 2rem;
+}
+
+@media screen and (max-width: 60em) {
+  .works {
+    margin-top: 5rem;
+    padding: 2rem 2rem;
+    transition: all 0.3s;
+  }
+  .works__container {
+    > h1 {
+      text-align: center;
+      font-size: 2.5rem;
+    }
+  }
+  .works__items {
+    padding-top: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20vw, 100%));
+    grid-column-gap: 3rem;
+    grid-row-gap: 2rem;
+  }
 }

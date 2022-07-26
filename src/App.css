@@ -9,10 +9,21 @@
     box-sizing: border-box;
     color: whitesmoke;
 
+
 }
 
 body {
     background-color: #121212;
     /* background: linear-gradient(180deg, rgb(26, 26, 26) 0%, rgb(21, 21, 21) 100%); */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+
+}
+
+#root {
+    width: 100%;
+    max-width: 1920px;
 }

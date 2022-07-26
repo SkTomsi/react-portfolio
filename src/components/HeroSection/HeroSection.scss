@@ -35,9 +35,9 @@
     line-height: 100px;
 
     @media screen and (max-width: 960px) {
-      font-size: 3.5rem;
+      font-size: 3rem;
       line-height: 70px;
-      padding: 2rem;
+      padding-top: 1rem;
     }
   }
 
@@ -68,7 +68,6 @@
     padding-top: 0.5rem;
 
     > p {
-      padding-top: 0.2rem;
       color: #4e4e4e;
       width: 50%;
       text-align: center;
@@ -77,6 +76,7 @@
     @media screen and (max-width: 960px) {
       > p {
         width: 80%;
+        padding-top: 0rem;
         font-size: 0.9rem;
       }
     }

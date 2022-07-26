@@ -6,13 +6,15 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 0 2rem;
 
     h1 {
       padding-bottom: 2rem;
+      font-size: 2.5rem;
     }
     img {
       object-fit: contain;
-      width: 80vw;
+      width: 100%;
       /* border-radius: 22px; */
       padding-bottom: 0.6rem;
     }
