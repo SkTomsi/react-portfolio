@@ -40,7 +40,7 @@ export const uxProjects = [
     id: 3,
     title: "get-bele",
     projectName: "get belle app concept",
-    image: require("../assets/uiuxProjects/Getbele.png"),
+    image: require("../assets/uiuxProjects/getbele.png"),
   },
   {
     id: 4,
