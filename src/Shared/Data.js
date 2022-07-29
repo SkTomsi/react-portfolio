@@ -55,7 +55,7 @@ export const uxProjects = [
     image: require("../assets/uiuxProjects/starbi.png"),
   },
   {
-    id: 5,
+    id: 6,
     title: "repairify",
     projectName: "repair service app concept",
     image: require("../assets/uiuxProjects/repairify.jpg"),
