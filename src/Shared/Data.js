@@ -46,19 +46,19 @@ export const uxProjects = [
     id: 4,
     title: "spotifyProfile",
     projectName: "spotify profile page redesign",
-    image: require("../assets/uiuxProjects/SpotifyRedesign.jpg"),
+    image: require("../assets/uiuxProjects/spotifyRedesign.jpg"),
   },
   {
     id: 5,
     title: "starbi",
     projectName: "starbucks product page redesign",
-    image: require("../assets/uiuxProjects/Starbi.png"),
+    image: require("../assets/uiuxProjects/starbi.png"),
   },
   {
     id: 6,
     title: "repairify",
     projectName: "repair service app concept",
-    image: require("../assets/uiuxProjects/Repairify.jpg"),
+    image: require("../assets/uiuxProjects/repairify.jpg"),
   },
 ];
 
