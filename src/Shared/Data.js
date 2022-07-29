@@ -34,7 +34,7 @@ export const uxProjects = [
     projectName: "eveels",
     projectDesc:
       "An app designed to bring the future at your fingertips by providing easy access to all things EV for you and creating a hassle-free relationship amongst the buyer and the seller.",
-    image: require("../assets/uiuxProjects/Eveels.png"),
+    image: require("../assets/uiuxProjects/eveels.png"),
   },
   {
     id: 3,
