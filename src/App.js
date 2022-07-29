@@ -14,6 +14,7 @@ import About from "./components/About";
 
 /* LOWER ORDER */
 import CustomLoader from "./components/CustomLoader";
+import Footer from "./components/Footer";
 
 function App() {
   const [loading, setLoading] = useState(false);
@@ -37,6 +38,7 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="/ui-ux" element={<UiUx />} />
           </Routes>
+          <Footer />
           <ScrollToTop smooth color="purple" />
         </div>
       )}
