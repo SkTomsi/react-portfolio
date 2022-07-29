@@ -8,7 +8,7 @@ import DevProjectCard from "./DevProjectCard";
 const DevProjects = () => {
   return (
     <div className="dev-project__container" id="dev-project">
-      <h1>DevProjects</h1>
+      <h1>Development Projects</h1>
       <div className="dev-project__grid">
         {DevelopmentProjects.map((development) => {
           return (

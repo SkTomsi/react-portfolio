@@ -30,7 +30,7 @@ const HeroSection = () => {
             smooth={true}
             className="hero__CTA-button-link"
           >
-            <button>Check out my works!</button>
+            <button>Check out my works! 🚀</button>
           </Link>
         </div>
       </div>

@@ -17,12 +17,12 @@ const Navbar = () => {
           </LinkR>
         </div>
         <div className="navbar__Links">
-          <LinkS /* class="active" */ to="works-section" smooth={true}>
+          <LinkR to="/" smooth={true}>
             Works
-          </LinkS>
-          <LinkS to="about" smooth={true}>
+          </LinkR>
+          <LinkR to="about" smooth={true}>
             About
-          </LinkS>
+          </LinkR>
           <LinkS to="contact" smooth={true}>
             Contact
           </LinkS>
