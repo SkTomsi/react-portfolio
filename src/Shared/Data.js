@@ -23,10 +23,42 @@ export const uxProjects = [
   {
     id: 1,
     title: "passmate",
-    projectName: "Passmate",
+    projectName: "passmate",
     projectDesc:
       "Designed an application where users can securely store Passwords, Credit Cards, and Secure Notes.",
-    image: "src/assets/uiuxProjects/Passmate.png",
+    image: require("../assets/uiuxProjects/passmate.png"),
+  },
+  {
+    id: 2,
+    title: "eveels",
+    projectName: "eveels",
+    projectDesc:
+      "An app designed to bring the future at your fingertips by providing easy access to all things EV for you and creating a hassle-free relationship amongst the buyer and the seller.",
+    image: require("../assets/uiuxProjects/eveels.png"),
+  },
+  {
+    id: 3,
+    title: "get-bele",
+    projectName: "get belle app concept",
+    image: require("../assets/uiuxProjects/getbele.png"),
+  },
+  {
+    id: 4,
+    title: "spotifyProfile",
+    projectName: "spotify profile page redesign",
+    image: require("../assets/uiuxProjects/spotifyRedesign.jpg"),
+  },
+  {
+    id: 5,
+    title: "starbi",
+    projectName: "starbucks product page redesign",
+    image: require("../assets/uiuxProjects/starbi.png"),
+  },
+  {
+    id: 5,
+    title: "repairify",
+    projectName: "repair service app concept",
+    image: require("../assets/uiuxProjects/repairify.jpg"),
   },
 ];
 

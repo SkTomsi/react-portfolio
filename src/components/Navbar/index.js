@@ -17,15 +17,9 @@ const Navbar = () => {
           </LinkR>
         </div>
         <div className="navbar__Links">
-          <LinkR to="/" smooth={true}>
-            Works
-          </LinkR>
-          <LinkR to="about" smooth={true}>
-            About
-          </LinkR>
-          <LinkS to="contact" smooth={true}>
-            Contact
-          </LinkS>
+          <LinkR to="/">Works</LinkR>
+          <LinkR to="about">About</LinkR>
+          <LinkS to="contact">Contact</LinkS>
         </div>
       </div>
     </div>
