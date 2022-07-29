@@ -1,31 +1,40 @@
 import React from "react";
 import "./About.scss";
 
+import Me from "../../assets/Tomcy.jpg";
+
 const About = () => {
   return (
     <div className="details__section">
       <div className="about">
         <h1>About Me</h1>
         <div className="about__container">
-          <p>
-            I'm a self-taught UI/UX and Graphic Designer who is now learning
-            React JS and React Native. I'm pursuing my Bachelor's Degree in
-            Computer Engineering from Pillai College of Engineering, graduation
-            in 2023.
-          </p>
-          <p>
-            I have more than a year of experience in User Experience designing.
-            I've worked as a freelance designer and helped many clients,
-            colleagues get their ideas designed. I worked as a UI/UX designer
-            for the official website of our collegiate festival Alegria.
-          </p>
-          <p>
-            I have two years of graphic design expertise. As part of my career,
-            I have worked on a variety of graphic design projects. For the year
-            2022, I was the Graphic Head of our collegiate festival Alegria, and
-            also the Graphic Head of Pillai College of Engineering's Student
-            Council.
-          </p>
+          <div className="about__info">
+            <p>
+              I'm a self-taught UI/UX and Graphic Designer who is now learning
+              React JS and React Native. I'm pursuing my Bachelor's Degree in
+              Computer Engineering from Pillai College of Engineering,
+              graduation in 2023.
+            </p>
+            <p>
+              I have more than a year of experience in User Experience
+              designing. I've worked as a freelance designer and helped many
+              clients, colleagues get their ideas designed. I worked as a UI/UX
+              designer for the official website of our collegiate festival
+              Alegria.
+            </p>
+            <p>
+              I have two years of graphic design expertise. As part of my
+              career, I have worked on a variety of graphic design projects. For
+              the year 2022, I was the Graphic Head of our collegiate festival
+              Alegria, and also the Graphic Head of Pillai College of
+              Engineering's Student Council.
+            </p>
+          </div>
+
+          <div className="about__image">
+            <img src={Me} alt="" />
+          </div>
         </div>
       </div>
       <div className="skills">
