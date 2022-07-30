@@ -1,0 +1,23 @@
+.Footer {
+  text-align: center;
+  bottom: 0;
+  padding: 2rem 0;
+}
+
+@media screen and (max-width: 960px) {
+  .Footer {
+    padding: 2rem 3rem;
+  }
+}
+
+.Footer > a {
+  color: #cc84ff;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 400px) {
+  .Footer {
+    font-size: 0.8rem;
+  }
+}
+/*# sourceMappingURL=Footer.css.map */

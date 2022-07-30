@@ -1,0 +1,113 @@
+.navbar {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 2rem;
+  width: 100%;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.navbar__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 10rem;
+  width: 100%;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+@media screen and (max-width: 960px) {
+  .navbar__container {
+    padding: 0 0rem;
+  }
+}
+
+.navbar__Logo .navbar__logo-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.navbar__Logo .navbar__logo-link .mobileLogo {
+  display: none;
+}
+
+@media screen and (max-width: 960px) {
+  .navbar__Logo .navbar__logo-link .mobileLogo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -o-object-fit: contain;
+       object-fit: contain;
+    height: 3rem;
+  }
+}
+
+.navbar__Logo .navbar__logo-link > img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  height: 4rem;
+}
+
+@media (max-width: 960px) {
+  .navbar__Logo .navbar__logo-link > img {
+    display: none;
+  }
+}
+
+.navbar__Links {
+  color: #fff;
+  cursor: pointer;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.navbar__Links .active {
+  background-color: rgba(255, 255, 255, 0.04);
+}
+
+.navbar__Links :hover {
+  color: #911ae5;
+  background-color: rgba(255, 255, 255, 0.04);
+}
+
+.navbar__Links > a {
+  margin-left: 30px;
+  font-size: 1rem;
+  font-weight: medium;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  padding: 8px 12px;
+  border-radius: 12px;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 400px) {
+  .navbar__Links > a {
+    font-size: 0.8rem;
+  }
+}
+/*# sourceMappingURL=navbar.styles.css.map */

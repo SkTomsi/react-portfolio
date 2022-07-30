@@ -1,0 +1,50 @@
+.works {
+  margin-top: 8rem;
+  padding: 2rem 5rem;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.works__container > h1 {
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.works__items {
+  padding-top: 2rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(30%, 30%))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(30%, 30%));
+  grid-column-gap: 3rem;
+  grid-row-gap: 2rem;
+}
+
+@media screen and (max-width: 60em) {
+  .works {
+    margin-top: 5rem;
+    padding: 2rem 0rem;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .works__container > h1 {
+    text-align: center;
+    font-size: 2.5rem;
+  }
+  .works__items {
+    padding-top: 2rem;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (minmax(10rem, 100%))[auto-fit];
+        grid-template-columns: repeat(auto-fit, minmax(10rem, 100%));
+    grid-column-gap: 3rem;
+    grid-row-gap: 2rem;
+  }
+}
+/*# sourceMappingURL=WorksCategory.css.map */

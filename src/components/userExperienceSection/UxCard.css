@@ -1,0 +1,61 @@
+@media screen and (min-width: 60em) {
+  .uxCard__container {
+    background-color: rgba(255, 255, 255, 0.019);
+    padding: 1.4rem;
+    border-radius: 22px;
+    border: 1px solid rgba(255, 255, 255, 0.079);
+  }
+
+  .uxCard__container .uxCard__image>img {
+    -o-object-fit: contain;
+    object-fit: contain;
+    width: 100%;
+    border-radius: 12px;
+  }
+
+  .uxCard__container .uxCard__info {
+    padding-top: 1rem;
+  }
+
+  .uxCard__container .uxCard__info h1 {
+    font-size: 2rem;
+  }
+
+  .uxCard__container .uxCard__info p {
+    font-size: 0.8rem;
+    padding-top: 6px;
+  }
+}
+
+@media screen and (max-width: 60em) {
+  .uxCard__container {
+    background-color: rgba(255, 255, 255, 0.019);
+    padding: 1rem;
+    border-radius: 22px;
+    border: 1px solid rgba(255, 255, 255, 0.079);
+  }
+
+  .uxCard__container .uxCard__image>img {
+    -o-object-fit: contain;
+    object-fit: contain;
+    width: 100%;
+    border-radius: 12px;
+  }
+
+  .uxCard__container .uxCard__info {
+    padding-top: 1rem;
+  }
+
+  .uxCard__container .uxCard__info h1 {
+    font-size: 19.2px;
+  }
+
+  .uxCard__container .uxCard__info p {
+    font-size: 0.8rem;
+    font-weight: 200;
+    color: #9f9f9f;
+    padding-top: 6px;
+  }
+}
+
+/*# sourceMappingURL=UxCard.css.map */

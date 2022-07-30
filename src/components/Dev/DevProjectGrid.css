@@ -1,0 +1,28 @@
+.dev-project__container {
+  margin-top: 8rem;
+}
+
+.dev-project__container > h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  padding: 2rem 0;
+}
+
+.dev-project__grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(10rem, 30rem))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(10rem, 30rem));
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  grid-column-gap: 8rem;
+  grid-row-gap: 2rem;
+}
+
+@media screen and (max-width: 60em) {
+  .dev-project__grid {
+    grid-row-gap: 1rem;
+  }
+}
+/*# sourceMappingURL=DevProjectGrid.css.map */

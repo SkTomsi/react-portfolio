@@ -7,6 +7,7 @@ import ScrollToTop from "react-scroll-to-top";
 import "./App.css";
 
 /* COMPONENTS */
+
 import Navbar from "./components/Navbar";
 import Home from "./Routes/Home/Home";
 import UiUx from "./Routes/UiUX/UiUx";
@@ -23,7 +24,7 @@ function App() {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 3000);
+    }, 0);
   }, []);
 
   return (
@@ -39,7 +40,12 @@ function App() {
             <Route path="/ui-ux" element={<UiUx />} />
           </Routes>
           <Footer />
-          <ScrollToTop smooth color="purple" />
+          <ScrollToTop
+            smooth
+            component={
+              <p style={{ color: "purple", fontSize: "1.5rem" }}>🔝</p>
+            }
+          />
         </div>
       )}
     </div>

@@ -122,4 +122,16 @@ export const GfxDesigns = [
     id: 5,
     path: require("../assets/gfx/PublicityPoster.jpg"),
   },
+  {
+    id: 6,
+    path: require("../assets/gfx/AppPromo.png"),
+  },
+  {
+    id: 7,
+    path: require("../assets/gfx/PajamaDay.png"),
+  },
+  {
+    id: 7,
+    path: require("../assets/gfx/RoseDay22ndApril.png"),
+  },
 ];

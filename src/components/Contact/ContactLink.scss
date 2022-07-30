@@ -1,0 +1,28 @@
+.contact-link__container {
+  background-color: blueviolet;
+  border-radius: 12px;
+  padding: 0.5rem;
+
+  a {
+    margin: auto 22px;
+  }
+
+  .icon {
+    font-size: 4rem;
+  }
+}
+
+@media screen and (max-width: 60em) {
+  .contact-link__container {
+    background-color: blueviolet;
+    border-radius: 12px;
+    padding: 0.5rem;
+
+    a {
+      margin: auto 12px;
+    }
+    .icon {
+      font-size: 1.2rem;
+    }
+  }
+}

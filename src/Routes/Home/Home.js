@@ -5,6 +5,7 @@ import WorksCategory from "../../components/WorksCategory";
 import DevProjects from "../../components/Dev";
 import Gfx from "../../components/GfxSection";
 import UIUXSection from "../../components/userExperienceSection";
+import ContactSection from "../../components/Contact";
 
 function Home() {
   return (
@@ -14,6 +15,7 @@ function Home() {
       <UIUXSection />
       <DevProjects />
       <Gfx />
+      <ContactSection />
     </div>
   );
 }
