@@ -20,24 +20,24 @@
   }
 
   .category-item__header {
-    > h4 {
+    h4 {
       color: #cc84ff;
       font-size: 4rem;
       font-weight: 800;
 
       @media screen and (max-width: 960px) {
-        font-size: 3rem;
+        font-size: 2.8rem;
       }
     }
 
-    > p {
+    p {
       padding-top: 1.2rem;
       color: #656565;
       width: 80%;
       line-height: 1.2rem;
 
       @media screen and (max-width: 60em) {
-        font-size: 0.8rem;
+        font-size: 1rem;
       }
     }
   }

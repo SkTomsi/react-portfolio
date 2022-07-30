@@ -1,13 +1,13 @@
 @import url("https://fonts.cdnfonts.com/css/mark-pro");
-
+@import url('https://fonts.cdnfonts.com/css/campton');
 @import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 * {
-    font-family: 'Mark Pro', 'Poppins';
+    font-family: 'Mark Pro', 'Campton', 'Poppins';
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: #fff;
+    color: whitesmoke;
 
 
 }
@@ -26,4 +26,9 @@ body {
 #root {
     width: 100%;
     max-width: 1920px;
+}
+
+.up-arrow-icon {
+    color: black;
+    font-size: 2rem;
 }
