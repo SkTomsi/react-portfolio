@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,MAAM,CAAC;EACL,UAAU,EAAE,IAAI;CAMjB;;AAPD,AAEE,MAFI,GAEF,EAAE,CAAC;EACH,UAAU,EAAE,MAAM;EAClB,SAAS,EAAE,MAAM;EACjB,OAAO,EAAE,MAAM;CAChB;;AAGH,AAAA,iBAAiB,CAAC;EAChB,OAAO,EAAE,IAAI;EACb,qBAAqB,EAAE,sCAAsC;EAC7D,eAAe,EAAE,IAAI;EACrB,YAAY,EAAE,IAAI;EAClB,eAAe,EAAE,MAAM;CACxB",
-    "sources": [
-        "UxSection.scss"
-    ],
-    "names": [],
-    "file": "UxSection.css"
-}

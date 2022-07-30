@@ -7,7 +7,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    color: whitesmoke;
+    color: rgb(168, 168, 168);
 
 
 }
@@ -26,9 +26,4 @@ body {
 #root {
     width: 100%;
     max-width: 1920px;
-}
-
-.up-arrow-icon {
-    color: black;
-    font-size: 2rem;
 }
