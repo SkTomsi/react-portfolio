@@ -22,6 +22,7 @@
     margin: auto 12px;
   }
   .contact-link__container .icon {
+    padding-top: 5px;
     font-size: 1.2rem;
   }
 }

@@ -131,7 +131,7 @@ export const GfxDesigns = [
     path: require("../assets/gfx/PajamaDay.png"),
   },
   {
-    id: 7,
+    id: 8,
     path: require("../assets/gfx/RoseDay22ndApril.png"),
   },
 ];

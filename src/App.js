@@ -24,7 +24,7 @@ function App() {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 0);
+    }, 3000);
   }, []);
 
   return (
