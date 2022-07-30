@@ -22,7 +22,7 @@ const ContactSection = () => {
           for one another, please do connect with me online
         </p>
       </div>
-      <div className="contact-links">
+      <div className="contact-links" id="contact">
         <ContactLink
           Icon={FaLinkedinIn}
           link="https://www.linkedin.com/in/tomcyt/"
