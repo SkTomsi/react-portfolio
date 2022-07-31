@@ -8,7 +8,8 @@ const HeroSection = () => {
     <div className="hero-section" id="hero-section">
       <div className="hero__container">
         <div className="hero__intro">
-          <p>Hi! my name is Tomcy, I love </p>
+          <p>Hi! my name is Tomcy,
+            I love </p>
           <h1>
             building <span className="hero__color">products</span> and{" "}
             <span className="hero__color">experiences</span>.

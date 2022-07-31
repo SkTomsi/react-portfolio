@@ -29,16 +29,10 @@ const ContactSection = () => {
         />
         <ContactLink
           Icon={FaBehance}
-          link="https://www.linkedin.com/in/tomcyt/"
+          link="https://www.behance.net/tomcythomas"
         />
-        <ContactLink
-          Icon={FaDribbble}
-          link="https://www.linkedin.com/in/tomcyt/"
-        />
-        <ContactLink
-          Icon={FaGithub}
-          link="https://www.linkedin.com/in/tomcyt/"
-        />
+        <ContactLink Icon={FaDribbble} link="https://dribbble.com/Tomcy48" />
+        <ContactLink Icon={FaGithub} link="https://github.com/TomcyT" />
       </div>
     </div>
   );
