@@ -40,12 +40,7 @@ function App() {
             <Route path="/ui-ux" element={<UiUx />} />
           </Routes>
           <Footer />
-          <ScrollToTop
-            smooth
-            component={
-              <p style={{ color: "purple", fontSize: "1.5rem" }}>🔝</p>
-            }
-          />
+          <ScrollToTop smooth color="black" />
         </div>
       )}
     </div>
