@@ -4,9 +4,9 @@ import { Link as LinkR } from "react-router-dom";
 import { Link as LinkS } from "react-scroll";
 import TDLogo from "../../assets/Logo.png";
 import TDMobile from "../../assets/MobileLogo.png";
-import { useLocation } from 'react-router-dom';
+import { useLocation } from "react-router-dom";
 const Navbar = () => {
-	const location = useLocation();
+  const location = useLocation();
   return (
     <div className="navbar" id="navbar">
       <div className="navbar__container">
@@ -21,15 +21,15 @@ const Navbar = () => {
         <div className="navbar__Links">
           <LinkR to="/">Home</LinkR>
           <LinkR to="about">About</LinkR>
-        {location.pathname === '/' ? (
-          <LinkS to="contact" smooth={true}>
-            Contact
-          </LinkS>
-        ) : (
-          <LinkR to="/" state={{ scrollToContact: true }}>
-            Contact
-          </LinkR>
-        )}
+          {location.pathname === "/" ? (
+            <LinkS to="contact" smooth={true}>
+              Contact
+            </LinkS>
+          ) : (
+            <LinkR to="/" state={{ scrollToContact: true }}>
+              Contact
+            </LinkR>
+          )}
         </div>
       </div>
     </div>
