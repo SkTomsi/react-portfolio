@@ -18,7 +18,7 @@ function Home() {
         smooth: true,
       });
     }
-  }, []);
+  });
   return (
     <div id="home">
       <HeroSection />
