@@ -11,8 +11,11 @@ import { FaDribbble } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 /*  */
 
+import { Element } from "react-scroll";
+
 const ContactSection = () => {
   return (
+    <Element name="contact">
     <div className="contact__container">
       <div className="contact__intro">
         <h1>sold yet?</h1>
@@ -35,6 +38,7 @@ const ContactSection = () => {
         <ContactLink Icon={FaGithub} link="https://github.com/TomcyT" />
       </div>
     </div>
+    </Element>
   );
 };
 
