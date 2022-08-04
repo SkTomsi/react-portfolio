@@ -10,12 +10,14 @@
 .navbar__container {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
-  width: 80%;
+  justify-content: space-between;
+  padding: 0 10rem;
+  width: 100%;
+  transition: all 0.3s;
 
-  /*  @media screen and (max-width: 500px) {
-    gap: 0.2rem;
-  } */
+  @media screen and (max-width: 960px) {
+    padding: 0 0rem;
+  }
 }
 
 .navbar__Logo .navbar__logo-link {
@@ -23,6 +25,7 @@
   flex-direction: row;
   justify-content: space-evenly;
   gap: 8px;
+  cursor: pointer;
 
   .mobileLogo {
     display: none;
@@ -30,7 +33,7 @@
     @media screen and (max-width: 960px) {
       display: flex;
       object-fit: contain;
-      height: 4rem;
+      height: 3rem;
     }
   }
 
@@ -48,7 +51,7 @@
 
 .navbar__Links {
   color: #fff;
-  cursor: pointer;
+
   transition: all 0.3s;
 
   .active {
@@ -69,4 +72,11 @@
   padding: 8px 12px;
   border-radius: 12px;
   text-decoration: none;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 400px) {
+  .navbar__Links > a {
+    font-size: 0.8rem;
+  }
 }

@@ -1,7 +1,5 @@
-@import url("http://fonts.cdnfonts.com/css/dashboard");
-
 .hero-section {
-  margin-top: 6rem;
+  margin-top: 4rem;
   align-items: center;
   text-align: center;
   transition: all 0.3s;
@@ -23,32 +21,32 @@
 
   > p {
     font-size: 1.8rem;
-    font-weight: 200;
+    font-weight: 300;
+    color: #c4c4c4;
 
     @media screen and (max-width: 960px) {
-      font-size: 1.5rem;
+      font-size: 1rem;
     }
   }
 
   > h1 {
-    padding: 2rem;
-    font-size: 4rem;
-    font-weight: bold;
+    padding: 1rem 2vw;
+    font-size: 6rem;
+    font-weight: 800;
     line-height: 100px;
 
     @media screen and (max-width: 960px) {
       font-size: 3rem;
-      line-height: 80px;
-      padding: 1rem;
+      line-height: 70px;
+      padding-top: 1rem;
     }
   }
 
   .hero__color {
-    font-family: "Dashboard", sans-serif;
-    color: #911ae5;
-    background-color: rgba(255, 255, 255, 0.04);
-    padding: 8px 12px;
-    border-radius: 22px;
+    font-weight: 800;
+    color: transparent;
+    background: linear-gradient(to right, #9500ff 25%, #daa7ff 100%);
+    background-clip: text;
   }
 
   .hero__intro-type {
@@ -56,20 +54,20 @@
     display: flex;
     justify-content: center;
     gap: 10px;
+    margin-top: 2rem;
+    font-weight: 800;
 
     @media screen and (max-width: 960px) {
-      margin-top: 2rem;
+      display: none !important;
     }
   }
 
   .hero__short-intro {
-    padding-top: 0.5rem;
     display: flex;
     align-items: center;
     justify-content: center;
-
+    padding-top: 0.5rem;
     > p {
-      padding-top: 0.2rem;
       color: #4e4e4e;
       width: 50%;
       text-align: center;
@@ -77,7 +75,7 @@
 
     @media screen and (max-width: 960px) {
       > p {
-        width: 80%;
+        width: 100%;
         font-size: 0.9rem;
       }
     }
@@ -85,19 +83,27 @@
 }
 
 .hero__CTA {
-  > button {
-    margin-top: 4rem;
-    background-color: #911ae5;
+  .hero__CTA-button-link > button {
+    margin-top: 3rem;
+    background-color: #cc84ff;
     padding: 20px 40px;
     border-radius: 10px;
     font-size: 20px;
+    font-weight: 500;
     cursor: pointer;
     border: none;
+    color: #121212;
+
+    @media screen and (max-width: 960px) {
+      margin-top: 2rem;
+      font-size: 14px;
+      padding: 16px 20px;
+    }
   }
 
-  :hover {
+  .hero__CTA-button-link > button:hover {
     transition: 0.3s;
-    background-color: #deb0ff;
+    background-color: #edd5ff;
     color: #911ae5;
   }
 }

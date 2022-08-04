@@ -1,0 +1,40 @@
+@media screen and (max-width: 40em) {
+  .gfx-container {
+    text-align: center;
+    margin-top: 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h1 {
+      padding: 2rem 0rem;
+      font-size: 2.5rem;
+    }
+    img {
+      object-fit: contain;
+      width: 100%;
+      padding-bottom: 0.6rem;
+    }
+  }
+}
+@media screen and (min-width: 40em) {
+  .gfx-container {
+    text-align: center;
+    margin: 0 3rem;
+    margin-top: 8rem;
+    > h1 {
+      padding: 2rem 0;
+      font-size: 2.5rem;
+    }
+    .gfx-works {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      > img {
+        object-fit: contain;
+        max-height: 20rem;
+      }
+    }
+  }
+}
