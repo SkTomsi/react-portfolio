@@ -7,7 +7,7 @@ export const Categories = [
   },
   {
     id: 2,
-    title: "dev Projects",
+    title: "dev projects",
     desc: "Development projects I worked on during my Academic year",
     scrollComponent: "dev-project",
   },
@@ -112,7 +112,7 @@ export const GfxDesigns = [
   },
   {
     id: 3,
-    path: require("../assets/gfx/AtriumBanner 1.png"),
+    path: require("../assets/gfx/AtriumBanner.png"),
   },
   {
     id: 4,
