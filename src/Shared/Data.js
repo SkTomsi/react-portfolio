@@ -69,7 +69,7 @@ export const DevelopmentProjects = [
     desc: "A Web Application based vehicle identification system",
     stack: "PHP, MYSQL, HTML, CSS",
     link: "https://github.com/TomcyT/CampusTrack",
-    image: require("../assets/developmentProjects/test.png"),
+    image: require("../assets/developmentProjects/campustrack.png"),
     color: "#CDF0EA",
   },
   {
@@ -78,7 +78,7 @@ export const DevelopmentProjects = [
     desc: " A system which predicts the disease based on the symptoms",
     stack: "Python",
     link: "https://github.com/TomcyT/Disease-Predictor",
-    image: require("../assets/developmentProjects/test.png"),
+    image: require("../assets/developmentProjects/predicted.png"),
     color: "#FAF4B7",
   },
   {
@@ -87,7 +87,7 @@ export const DevelopmentProjects = [
     desc: "A Web App to calculate and log your expenses",
     stack: "PHP, MYSQL, HTML, CSS",
     link: "https://github.com/TomcyT",
-    image: require("../assets/developmentProjects/test.png"),
+    image: require("../assets/developmentProjects/budget.png"),
     color: "#FFE6E6",
   },
   {

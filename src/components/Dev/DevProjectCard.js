@@ -3,16 +3,13 @@ import React from "react";
 import "./DevProjectCard.scss";
 
 const DevProjectCard = ({ development }) => {
-  const { title, desc, link, stack, color } = development;
+  const { title, desc, link, stack, image } = development;
   return (
     <div className="dev-project-card">
       <div className="dev-project-card__container">
         <div className="dev-project__details">
-          <div
-            className="dev-project-card__image"
-            style={{ backgroundColor: color }}
-          >
-            {/* <img src={image} alt={title} /> */}
+          <div className="dev-project-card__image">
+            <img src={image} alt={title} />
           </div>
           <div className="dev-project-card__title">
             <h3>{title}</h3>
