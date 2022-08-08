@@ -1,7 +1,7 @@
 @media screen and (min-width: 60em) {
   .hero-section {
     margin-top: 4rem;
-    padding: 0 15rem;
+    padding: 0 10rem;
 
     .hero__container {
       display: flex;
@@ -20,8 +20,9 @@
           color: #c4c4c4;
         }
         > h1 {
+          width: 60%;
           font-weight: 800;
-          font-size: 7rem;
+          font-size: 6rem;
           line-height: 100px;
           padding: 1rem 0rem;
         }
@@ -102,8 +103,8 @@
         }
         > h1 {
           font-weight: 800;
-          font-size: 13vw;
-          line-height: 70px;
+          font-size: 3rem;
+          line-height: 50px;
           padding: 1rem 0rem;
         }
 
@@ -115,7 +116,7 @@
         }
         .hero__short-intro {
           > p {
-            font-size: 0.9rem;
+            font-size: 0.8rem;
             padding-top: 0.5rem;
             color: #4e4e4e;
             text-align: center;
