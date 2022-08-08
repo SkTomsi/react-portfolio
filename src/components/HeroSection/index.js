@@ -5,7 +5,7 @@ import { Link } from "react-scroll";
 
 const HeroSection = () => {
   return (
-    <div className="hero-section" id="hero-section">
+    <div className="hero-section" id="hero-section" variants={letterAni}>
       <div className="hero__container">
         <div className="hero__intro">
           <p>Hi! my name is Tomcy,</p>
