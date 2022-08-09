@@ -23,11 +23,7 @@ const HeroSection = () => {
           </div>
         </div>
         <div className="hero__CTA">
-          <Link
-            to="works-section"
-            smooth={true}
-            className="hero__CTA-button-link"
-          >
+          <Link to="ui-ux" smooth={true} className="hero__CTA-button-link">
             <button>Check out my works!</button>
           </Link>
         </div>
