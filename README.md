@@ -32,7 +32,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/TomcyT/react-portfolio">
-    <img src="src/assets/Logo.png" alt="Logo" width="80" height="80">
+    <img src="src/assets/Logo.png" alt="Logo" height="80" object-fit="contain">
   </a>
 
 <h3 align="center">Portfolio website</h3>
@@ -40,9 +40,7 @@
   <p align="center">
     My personal design and development portfolio built using ReactJs
     <br />
-    <a href="https://github.com/TomcyT/react-portfolio"><strong>Explore the docs »</strong></a>
-    <br />
-    <br />
+
     <a href="https://github.com/TomcyT/react-portfolio">View Demo</a>
     ·
     <a href="https://github.com/TomcyT/react-portfolio/issues">Report Bug</a>
@@ -65,16 +63,16 @@
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/github_username/react-portfolio.svg?style=for-the-badge
-[contributors-url]: https://github.com/github_username/react-portfolio/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/github_username/react-portfolio.svg?style=for-the-badge
-[forks-url]: https://github.com/github_username/react-portfolio/network/members
-[stars-shield]: https://img.shields.io/github/stars/github_username/react-portfolio.svg?style=for-the-badge
-[stars-url]: https://github.com/github_username/react-portfolio/stargazers
-[issues-shield]: https://img.shields.io/github/issues/github_username/react-portfolio.svg?style=for-the-badge
-[issues-url]: https://github.com/github_username/react-portfolio/issues
-[license-shield]: https://img.shields.io/github/license/github_username/react-portfolio.svg?style=for-the-badge
-[license-url]: https://github.com/github_username/react-portfolio/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/TomcyT/react-portfolio.svg?style=for-the-badge
+[contributors-url]: https://github.com/TomcyT/react-portfolio/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/TomcyT/react-portfolio.svg?style=for-the-badge
+[forks-url]: https://github.com/TomcyT/react-portfolio/network/members
+[stars-shield]: https://img.shields.io/github/stars/TomcyT/react-portfolio.svg?style=for-the-badge
+[stars-url]: https://github.com/TomcyT/react-portfolio/stargazers
+[issues-shield]: https://img.shields.io/github/issues/TomcyT/react-portfolio.svg?style=for-the-badge
+[issues-url]: https://github.com/TomcyT/react-portfolio/issues
+[license-shield]: https://img.shields.io/github/license/TomcyT/react-portfolio.svg?style=for-the-badge
+[license-url]: https://github.com/TomcyT/react-portfolio/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/linkedin_username
 [product-screenshot]: images/screenshot.png
