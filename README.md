@@ -39,8 +39,6 @@
 
   <p align="center">
     My personal design and development portfolio built using ReactJs
-    <br />
-
     <a href="https://github.com/TomcyT/react-portfolio">View Demo</a>
     ·
     <a href="https://github.com/TomcyT/react-portfolio/issues">Report Bug</a>
