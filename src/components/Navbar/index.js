@@ -21,6 +21,7 @@ const Navbar = () => {
         <div className="navbar__Links">
           <LinkR to="/">Home</LinkR>
           <LinkR to="about">About</LinkR>
+
           {location.pathname === "/" ? (
             <LinkS to="contact" smooth={true}>
               Contact
@@ -30,6 +31,14 @@ const Navbar = () => {
               Contact
             </LinkR>
           )}
+          <a
+            href="https://smallify.vercel.app/resume"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="resume"
+          >
+            Resume
+          </a>
         </div>
       </div>
     </div>

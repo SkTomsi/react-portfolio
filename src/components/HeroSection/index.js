@@ -26,6 +26,14 @@ const HeroSection = () => {
           <Link to="ui-ux" smooth={true} className="hero__CTA-button-link">
             <button>Check out my works!</button>
           </Link>
+          <a
+            href="https://smallify.vercel.app/resume"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="resume"
+          >
+            View my Resume
+          </a>
         </div>
       </div>
     </div>
