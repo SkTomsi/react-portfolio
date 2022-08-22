@@ -20,12 +20,12 @@ import Footer from "./components/Footer";
 function App() {
   const [loading, setLoading] = useState(false);
 
-  useEffect(() => {
+/*   useEffect(() => {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
     }, 3000);
-  }, []);
+  }, []); */
 
   return (
     <div className="App">

@@ -1,18 +1,16 @@
 @media screen and (max-width: 60em) {
   .details__section {
-    padding: 0 2rem;
-
     .about {
       margin-top: 2rem;
       h1 {
         text-align: center;
         padding-bottom: 1rem;
+        font-weight: 800;
       }
 
       .about__container {
         display: flex;
         flex-direction: column;
-
         gap: 2rem;
 
         .about__info {
@@ -27,6 +25,45 @@
           img {
             object-fit: contain;
             max-width: 100%;
+            height: 80%;
+          }
+        }
+      }
+    }
+    .skills {
+      padding-top: 4rem;
+      .skills__container {
+        text-align: center;
+        h1 {
+          font-weight: 800;
+          font-size: 2rem;
+          padding-bottom: 1rem;
+        }
+        .skill__cards {
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          gap: 2rem;
+
+          .skill__card {
+            padding: 2rem;
+            background-color: #cf92fb;
+            border-radius: 22px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            h2 {
+              font-weight: 800;
+              font-size: 1.8rem;
+              padding-bottom: 0.8rem;
+              color: #ffffff;
+            }
+            p {
+              font-size: 1rem;
+              font-weight: 400;
+              padding-top: 0.4rem;
+            }
           }
         }
       }
@@ -46,7 +83,8 @@
       h1 {
         text-align: center;
         padding-bottom: 3rem;
-        font-size: 2.5rem;
+        font-size: 3rem;
+        font-weight: 800;
       }
       .about__container {
         display: grid;
@@ -66,6 +104,45 @@
           img {
             object-fit: contain;
             width: 100%;
+            height: 100%;
+          }
+        }
+      }
+    }
+    .skills {
+      padding-top: 4rem;
+      .skills__container {
+        h1 {
+          text-align: center;
+          font-weight: 800;
+          font-size: 3rem;
+          padding-bottom: 3rem;
+        }
+        .skill__cards {
+          display: grid;
+          grid-template-columns: repeat(3, 33%);
+          grid-column-gap: 1rem;
+          justify-content: center;
+
+          .skill__card {
+            padding: 2rem;
+            background-color: #cf92fb;
+            border-radius: 22px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            h2 {
+              font-weight: 800;
+              font-size: 2rem;
+              padding-bottom: 0.8rem;
+              color: #ffffff;
+            }
+            p {
+              font-size: 1rem;
+              font-weight: 400;
+              padding-top: 0.4rem;
+            }
           }
         }
       }
