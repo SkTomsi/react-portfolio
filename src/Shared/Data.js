@@ -62,11 +62,11 @@ export const DevelopmentProjects = [
   },
   {
     id: 3,
-    title: "Home Budget Planner",
-    desc: "A Web App to calculate and log your expenses",
-    stack: "PHP, MYSQL, HTML, CSS",
-    link: "https://github.com/TomcyT",
-    image: require("../assets/developmentProjects/budget.png"),
+    title: "React Quotes App",
+    desc: "A simple random quote generator",
+    stack: "ReactJs",
+    link: "https://reactquotes-app.netlify.app/",
+    image: require("../assets/developmentProjects/quotes.png"),
     color: "#FFE6E6",
   },
   {
