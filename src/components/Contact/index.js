@@ -9,6 +9,8 @@ import { FaBehance } from "react-icons/fa";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaDribbble } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
+
 /*  */
 
 import { Element } from "react-scroll";
@@ -36,6 +38,7 @@ const ContactSection = () => {
           />
           <ContactLink Icon={FaDribbble} link="https://dribbble.com/Tomcy48" />
           <ContactLink Icon={FaGithub} link="https://github.com/TomcyT" />
+          <ContactLink Icon={FaTwitter} link="https://twitter.com/Tomcy48" />
         </div>
       </div>
     </Element>
