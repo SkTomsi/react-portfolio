@@ -35,7 +35,9 @@
     padding: 1rem 0;
     font-weight: 200;
     font-size: 1rem;
-    color: #9f9f9f;
+    > p {
+      color: #9f9f9f;
+    }
   }
   .blog__button {
     /* padding-top: 3rem;
@@ -90,7 +92,7 @@
       padding: 1rem 0;
       font-weight: 200;
       font-size: 0.9rem;
-      color: #9f9f9f;
+      color: #585858;
     }
     .blog__button {
       padding-bottom: 1rem;
