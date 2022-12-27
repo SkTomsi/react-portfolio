@@ -8,6 +8,7 @@ import ContactSection from "../../components/Contact";
 
 import { useLocation } from "react-router-dom";
 import { scroller } from "react-scroll";
+import Blog from "../../components/Blog/Blog";
 
 function Home() {
   const location = useLocation();
@@ -25,6 +26,7 @@ function Home() {
       <UIUXSection />
       <DevProjects />
       <Gfx />
+      <Blog />
       <ContactSection />
     </div>
   );
