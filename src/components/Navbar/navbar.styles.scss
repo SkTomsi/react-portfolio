@@ -54,10 +54,6 @@
 
   transition: all 0.3s;
 
-  .active {
-    background-color: rgba(255, 255, 255, 0.04);
-  }
-
   :hover {
     color: #911ae5;
     background-color: rgba(255, 255, 255, 0.04);
@@ -73,10 +69,19 @@
   border-radius: 12px;
   text-decoration: none;
   cursor: pointer;
+
+  &.resume {
+    background-color: #911ae5;
+    border-radius: 4px;
+    color: #fff;
+  }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 60em) {
   .navbar__Links > a {
     font-size: 0.8rem;
+    &.resume {
+      display: none;
+    }
   }
 }

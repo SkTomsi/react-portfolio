@@ -40,7 +40,35 @@ const About = () => {
       <div className="skills">
         <div className="skills__container">
           <h1>Skills</h1>
-          <div className="skills__type">
+          <div className="skill__cards">
+            <div className="skill__card" style={{ backgroundColor: "#cf92fb" }}>
+              <h2>Expertise</h2>
+              <p>UI UX Design</p>
+              <p>Graphic Design</p>
+              <p>Development</p>
+            </div>
+            <div className="skill__card" style={{ backgroundColor: "#b44bff" }}>
+              <h2>Tech Stack</h2>
+              <p>React Js</p>
+              <p>Javascript</p>
+              <p>React Native</p>
+              <p>PHP</p>
+              <p>CSS</p>
+              <p>SASS</p>
+              <p>Styled Components</p>
+              <p>Redux</p>
+              <p>MySql</p>
+              <p>Firebase</p>
+            </div>
+
+            <div className="skill__card" style={{ backgroundColor: "#911ae5" }}>
+              <h2>Design Tools</h2>
+              <p>Figma</p>
+              <p>Photoshop</p>
+              <p>Illustrator</p>
+            </div>
+          </div>
+          {/*  <div className="skills__type">
             <div className="skills__list">
               <h2>Tech Stack</h2>
               <ul>
@@ -72,7 +100,7 @@ const About = () => {
                 <li>Development</li>
               </ul>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

@@ -1,8 +1,9 @@
 .dev-project__container {
   margin-top: 8rem;
+  padding: 0 10rem;
   > h1 {
-    text-align: center;
-    font-size: 2.5rem;
+    font-size: 3rem;
+    font-weight: 800;
     padding: 2rem 0;
   }
 }
@@ -16,6 +17,16 @@
 }
 
 @media screen and (max-width: 60em) {
+  .dev-project__container {
+    margin-top: 8rem;
+    padding: 0 0rem;
+    > h1 {
+      text-align: center;
+      font-size: 2rem;
+      font-weight: 800;
+    }
+  }
+
   .dev-project__grid {
     grid-row-gap: 1rem;
   }
