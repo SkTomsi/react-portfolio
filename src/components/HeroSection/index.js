@@ -11,7 +11,7 @@ const HeroSection = () => {
           <p>Hi! my name is Tomcy, I love</p>
           <h1>
             building <span className="hero__color">products</span> and{" "}
-            <span className="hero__color">experiences</span>.
+            <span className="hero__color-2">experiences</span>.
           </h1>
           <div className="hero__intro-type">{/* <TypeRoles /> */}</div>
           <div className="hero__short-intro">
