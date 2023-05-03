@@ -19,16 +19,16 @@ export default function About() {
             <div className={styles.aboutContainer}>
               <div className={styles.aboutInfo}>
                 <p>
-                  I'm a self-taught UI/UX and Graphic Designer who is now
-                  learning React JS and React Native. I'm pursuing my Bachelor's
-                  Degree in Computer Engineering from Pillai College of
-                  Engineering, graduation in 2023.
+                  I&#39;m a self-taught UI/UX and Graphic Designer who is now
+                  learning React JS and React Native. I&#39;m pursuing my
+                  Bachelor&#39;s Degree in Computer Engineering from Pillai
+                  College of Engineering, graduation in 2023.
                 </p>
                 <p>
                   I have more than a year of experience in User Experience
-                  designing. I've worked as a freelance designer and helped many
-                  clients, colleagues get their ideas designed. I worked as a
-                  UI/UX designer for the official website of our collegiate
+                  designing. I&#39;ve worked as a freelance designer and helped
+                  many clients, colleagues get their ideas designed. I worked as
+                  a UI/UX designer for the official website of our collegiate
                   festival Alegria.
                 </p>
                 <p>
@@ -36,7 +36,7 @@ export default function About() {
                   career, I have worked on a variety of graphic design projects.
                   For the year 2022, I was the Graphic Head of our collegiate
                   festival Alegria, and also the Graphic Head of Pillai College
-                  of Engineering's Student Council.
+                  of Engineering&#39;s Student Council.
                 </p>
               </div>
 
