@@ -6,9 +6,9 @@ import ContactSection from "@/components/contact";
 import { useEffect } from "react";
 import { useRouter } from "next/router";
 import { scroller } from "react-scroll";
-import Gfx from "@/components/gfx";
+
 import DevProjects from "@/components/dev";
-import Blog from "@/components/Blog";
+import Blog from "@/components/blog";
 
 export default function Home() {
   const { asPath } = useRouter();

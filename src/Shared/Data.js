@@ -5,7 +5,7 @@ export const uxProjects = [
     projectName: "passmate",
     projectDesc:
       "Designed an application where users can securely store Passwords, Credit Cards, and Secure Notes.",
-    image: require("../../public/images/uiuxProjects/passmate.png"),
+    image: require("../../public/images/uiuxProjects/Passmate.png"),
   },
   {
     id: 2,
