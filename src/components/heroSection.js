@@ -22,7 +22,7 @@ const HeroSection = () => {
           </div>
         </div>
         <div className={styles.heroCta}>
-          <Link to="ui-ux" smooth={true} className={styles.heroCtaButtonLink}>
+          <Link to="uiux" smooth={true} className={styles.heroCtaButtonLink}>
             <button>Check out my works!</button>
           </Link>
           <a

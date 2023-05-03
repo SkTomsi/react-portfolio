@@ -1,5 +1,4 @@
-import React from "react";
-import "./ContactLink.scss";
+
 const ContactLink = ({ Icon, link }) => {
   return (
     <div className="contact-link__container">

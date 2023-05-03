@@ -1,0 +1,20 @@
+.footer {
+  text-align: center;
+  bottom: 0;
+  padding: 4rem 0 2rem 0;
+
+  @media screen and (max-width: 960px) {
+    padding: 2rem 3rem;
+  }
+
+  > a {
+    color: #cc84ff;
+    text-decoration: none;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .footer {
+    font-size: 0.8rem;
+  }
+}

@@ -4,6 +4,8 @@ import { Inter } from "next/font/google";
 
 import Navbar from "@/components/navbar";
 import HeroSection from "@/components/heroSection";
+import UIUXSection from "@/components/uiux";
+import ContactSection from "@/components/contact";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,8 +19,9 @@ export default function Home() {
         <link rel="icon" href="/images/tomc.png" />
       </Head>
       <main>
-        <Navbar />
         <HeroSection />
+        <UIUXSection />
+        <ContactSection />
       </main>
     </>
   );
