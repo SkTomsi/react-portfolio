@@ -1,4 +1,6 @@
+import ScrollToTop from "react-scroll-to-top";
 import Footer from "./footer";
+import React from "react";
 import Navbar from "./navbar";
 
 export default function Layout({ children }) {
@@ -6,6 +8,7 @@ export default function Layout({ children }) {
     <>
       <Navbar />
       <main>{children}</main>
+      <ScrollToTop smooth />
       <Footer />
     </>
   );
