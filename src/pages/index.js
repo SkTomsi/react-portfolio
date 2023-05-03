@@ -1,15 +1,24 @@
 import Head from "next/head";
-import Image from "next/image";
+
 import { Inter } from "next/font/google";
 
-import Navbar from "@/components/navbar";
 import HeroSection from "@/components/heroSection";
 import UIUXSection from "@/components/uiux";
 import ContactSection from "@/components/contact";
-
-const inter = Inter({ subsets: ["latin"] });
+import { useEffect } from "react";
+import { useRouter } from "next/router";
+import { scroller } from "react-scroll";
 
 export default function Home() {
+  const { asPath } = useRouter();
+  useEffect(() => {
+    if (asPath.includes("scrollToContact")) {
+      scroller.scrollTo("contact", {
+        delay: 200,
+        smooth: true,
+      });
+    }
+  });
   return (
     <>
       <Head>

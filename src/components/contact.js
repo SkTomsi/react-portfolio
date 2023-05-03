@@ -25,7 +25,7 @@ const ContactLink = ({ Icon, link }) => {
 
 const ContactSection = () => {
   return (
-    <Element name={styles.contact}>
+    <Element name="contact">
       <div className={styles.contactContainer}>
         <div className={styles.contactIntro}>
           <h1>sold yet?</h1>

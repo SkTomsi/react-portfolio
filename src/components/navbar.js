@@ -1,11 +1,15 @@
 import React from "react";
 import styles from "@/styles/Navbar.module.scss";
 import Link from "next/link";
+import { Link as LinkS } from "react-scroll";
 import TDLogo from "../../public/images/Logo.png";
 import TDMobile from "../../public/images/MobileLogo.png";
 import Image from "next/image";
+import { Router, useRouter } from "next/router";
 
 const Navbar = () => {
+  const location = useRouter();
+  console.log(location.pathname);
   return (
     <div className={styles.navbar} id="navbar">
       <div className={styles.navbarContainer}>
@@ -21,7 +25,20 @@ const Navbar = () => {
         <div className={styles.navbarLinks}>
           <Link href="/">Home</Link>
           <Link href="about">About</Link>
-          <Link href="/">Contact</Link>
+          {location.pathname === "/" ? (
+            <LinkS to="contact" smooth={true}>
+              Contact
+            </LinkS>
+          ) : (
+            <Link
+              href={{
+                pathname: "/",
+                query: { scrollToContact: true },
+              }}
+            >
+              Contact
+            </Link>
+          )}
           <a
             href="https://smallify.vercel.app/resume"
             target="_blank"
