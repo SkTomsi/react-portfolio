@@ -113,16 +113,15 @@ export const DevelopmentProjects = [
     id: 8,
     path: require("../assets/gfx/RoseDay22ndApril.png"),
   },
-];
+]; */
 
 export const BlogData = [
   {
     id: 1,
     title: "THE ALEGRIA EXPERIENCE #5: GRAPHICS COMMITTEE",
     desc: "Students from the graphics team use their artistic abilities to communicate ideas and present them in a visual form. It’s been a long road for the graphics team to create such beautiful and mesmerizing visuals, from the layout of a website, brochures, to large flyers and banners displayed all over. Let us hear it from the committee heads who have played a critical role in Alegria’s virtual success. Jidnesh Madhavi from PCACS and Tomcy Thomas from PCE have collaborated creatively to make the event a huge success.",
-    image: require("../assets/blog-wp-2-1.png"),
+    image: require("../../public/images/blog-wp-2-1.png"),
     link: "https://pillaialegria.wordpress.com/2022/12/25/the-alegria-experience-5-graphics-committee/",
     date: "December 25, 2022",
   },
 ];
- */

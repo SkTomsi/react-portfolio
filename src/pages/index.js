@@ -8,6 +8,7 @@ import { useRouter } from "next/router";
 import { scroller } from "react-scroll";
 import Gfx from "@/components/gfx";
 import DevProjects from "@/components/dev";
+import Blog from "@/components/Blog";
 
 export default function Home() {
   const { asPath } = useRouter();
@@ -31,8 +32,8 @@ export default function Home() {
       <main>
         <HeroSection />
         <UIUXSection />
-        <Gfx />
         <DevProjects />
+        <Blog />
         <ContactSection />
       </main>
     </>
