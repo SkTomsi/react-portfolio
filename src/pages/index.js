@@ -1,21 +1,22 @@
 import Head from "next/head";
 
-import { Inter } from "next/font/google";
-
 import HeroSection from "@/components/heroSection";
 import UIUXSection from "@/components/uiux";
 import ContactSection from "@/components/contact";
 import { useEffect } from "react";
 import { useRouter } from "next/router";
 import { scroller } from "react-scroll";
+import Gfx from "@/components/gfx";
+import DevProjects from "@/components/dev";
 
 export default function Home() {
   const { asPath } = useRouter();
   useEffect(() => {
     if (asPath.includes("scrollToContact")) {
       scroller.scrollTo("contact", {
-        delay: 200,
-        smooth: true,
+        delay: 150,
+        duration: 1500,
+        smooth: "easeInOutQuint",
       });
     }
   });
@@ -30,6 +31,8 @@ export default function Home() {
       <main>
         <HeroSection />
         <UIUXSection />
+        <Gfx />
+        <DevProjects />
         <ContactSection />
       </main>
     </>

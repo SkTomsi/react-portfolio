@@ -41,14 +41,14 @@ export const uxProjects = [
   },
 ];
 
-/* export const DevelopmentProjects = [
+export const DevelopmentProjects = [
   {
     id: 1,
     title: "CampusTrack",
     desc: "A Web Application based vehicle identification system",
     stack: "PHP, MYSQL, HTML, CSS",
     link: "https://github.com/TomcyT/CampusTrack",
-    image: require("../assets/developmentProjects/campustrack.png"),
+    image: require("../../public/images/developmentProjects/campustrack.png"),
     color: "#CDF0EA",
   },
   {
@@ -57,7 +57,7 @@ export const uxProjects = [
     desc: " A system which predicts the disease based on the symptoms",
     stack: "Python",
     link: "https://github.com/TomcyT/Disease-Predictor",
-    image: require("../assets/developmentProjects/predicted.png"),
+    image: require("../../public/images/developmentProjects/predicted.png"),
     color: "#FAF4B7",
   },
   {
@@ -66,7 +66,7 @@ export const uxProjects = [
     desc: "A simple random quote generator",
     stack: "ReactJs",
     link: "https://reactquotes-app.netlify.app/",
-    image: require("../assets/developmentProjects/quotes.png"),
+    image: require("../../public/images/developmentProjects/quotes.png"),
     color: "#FFE6E6",
   },
   {
@@ -75,12 +75,12 @@ export const uxProjects = [
     desc: "A software application that is designed to help programmers to keep track of reported software bugs in their work",
     stack: "ReactJs, NodeJs, Express, Mongodb, JsonWebTokens",
     link: "https://github.com/TomcyT/bug-tracker",
-    image: require("../assets/developmentProjects/test.png"),
+    image: require("../../public/images/developmentProjects/test.png"),
     color: "#CCF3EE",
   },
 ];
 
-export const GfxDesigns = [
+/* export const GfxDesigns = [
   {
     id: 1,
     path: require("../assets/gfx/AbhishekUpmanyu.png"),

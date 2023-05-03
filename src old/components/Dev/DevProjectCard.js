@@ -1,6 +1,3 @@
-import React from "react";
-/* import Img from "../../assets/developmentProjects/test.png"; */
-import "./DevProjectCard.scss";
 
 const DevProjectCard = ({ development }) => {
   const { title, desc, link, stack, image } = development;
