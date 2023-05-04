@@ -74,7 +74,6 @@ export default function About() {
                   <p>MySql</p>
                   <p>Firebase</p>
                 </div>
-
                 <div
                   className={styles.skillCard}
                   style={{ backgroundColor: "#911ae5" }}
