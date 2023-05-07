@@ -14,7 +14,7 @@ const DevProjectCard = ({ development }) => {
             <Image src={image} alt={title} />
           </div>
           <div className={styles.devProjectCardTitle}>
-            <h3>{title}</h3>
+            <h1>{title}</h1>
           </div>
           <div className={styles.devProjectCardDescription}>
             <p>{desc}</p>
