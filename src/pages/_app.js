@@ -1,8 +1,7 @@
 import Layout from "@/components/layout";
 
 import "@/styles/globals.scss";
-import { MantineProvider } from "@mantine/core";
-
+import { Analytics } from "@vercel/analytics/react";
 import Head from "next/head";
 
 export default function App({ Component, pageProps }) {
@@ -15,6 +14,7 @@ export default function App({ Component, pageProps }) {
         <link rel="icon" href="/images/tomc.png" />
       </Head>
       <Component {...pageProps} />
+      <Analytics />
     </Layout>
   );
 }
