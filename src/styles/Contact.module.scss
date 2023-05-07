@@ -1,0 +1,84 @@
+.contactLinkContainer {
+  background-color: blueviolet;
+  border-radius: 12px;
+  padding: 0.5rem;
+
+  a {
+    margin: auto 12px;
+  }
+
+  .icon {
+    padding-top: 5px;
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 60em) {
+  .contactLinkContainer {
+    background-color: blueviolet;
+    border-radius: 12px;
+    padding: 0.5rem;
+
+    a {
+      margin: auto 5px;
+    }
+    .icon {
+      padding-top: 5px;
+      font-size: 1.5rem;
+    }
+  }
+}
+
+.contactContainer {
+  margin: 8rem 10rem 2rem 10rem;
+  max-width: 100%;
+
+  .contactIntro {
+    h1 {
+      font-size: 4rem;
+      color: transparent;
+      background: linear-gradient(to right, #9500ff 1px, #daa7ff 120px);
+      background-clip: text;
+    }
+    p {
+      padding: 2rem 0;
+      font-size: 1.8rem;
+      color: #cbcbcb;
+      width: 70%;
+    }
+  }
+
+  .contactLinks {
+    display: flex;
+    gap: 1rem;
+  }
+}
+
+@media screen and (max-width: 60em) {
+  .contactContainer {
+    margin: 5rem 0rem 0rem 0rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .contactIntro {
+      h1 {
+        font-size: 3rem;
+        color: transparent;
+        background: linear-gradient(to right, #9500ff 1px, #daa7ff 120px);
+        background-clip: text;
+      }
+      p {
+        padding-top: 0.5rem;
+        font-size: 1rem;
+        color: #fff;
+        width: 100%;
+      }
+    }
+
+    .contactLinks {
+      display: flex;
+      gap: 1rem;
+    }
+  }
+}

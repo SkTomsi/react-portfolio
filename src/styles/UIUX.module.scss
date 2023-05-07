@@ -1,0 +1,90 @@
+@media screen and (min-width: 60em) {
+  .uxCardContainer {
+    background-color: rgba(255, 255, 255, 0.019);
+    padding: 1.4rem;
+    border-radius: 22px;
+    border: 1px solid rgba(255, 255, 255, 0.079);
+
+    .uxCardImage {
+      > img {
+        object-fit: contain;
+        width: 100%;
+        border-radius: 12px;
+        height: auto !important;
+      }
+    }
+
+    .uxCardInfo {
+      padding-top: 1rem;
+
+      h1 {
+        font-size: 1.5rem;
+      }
+
+      p {
+        font-size: 1rem;
+        font-weight: 200;
+        color: #9f9f9f;
+        padding-top: 6px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 60em) {
+  .uxCardContainer {
+    background-color: rgba(255, 255, 255, 0.019);
+    padding: 1rem;
+    border-radius: 22px;
+    border: 1px solid rgba(255, 255, 255, 0.079);
+
+    .uxCardImage {
+      > img {
+        object-fit: contain;
+        width: 100%;
+        border-radius: 12px;
+        height: auto !important;
+      }
+    }
+
+    .uxCardInfo {
+      padding-top: 1rem;
+
+      h1 {
+        font-size: 1.3rem;
+      }
+
+      p {
+        font-size: 0.9rem;
+        font-weight: 200;
+        color: #9f9f9f;
+        padding-top: 6px;
+      }
+    }
+  }
+}
+.uiUx {
+  margin-top: 8rem;
+  padding: 0 10rem;
+  > h1 {
+    font-size: 3rem;
+    padding: 2rem 0;
+    font-weight: 800;
+  }
+
+  @media screen and (max-width: 60em) {
+    padding: 0 0;
+    > h1 {
+      text-align: center;
+      font-size: 2rem;
+    }
+  }
+}
+
+.uiUxContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 30rem));
+  grid-column-gap: 8rem;
+  grid-row-gap: 2rem;
+  justify-content: center;
+}
