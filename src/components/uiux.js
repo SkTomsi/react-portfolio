@@ -8,7 +8,7 @@ const UxCard = ({ uxProject }) => {
   return (
     <div className={styles.uxCardContainer}>
       <div className={styles.uxCardImage}>
-        <Image src={image} alt="" />
+        <Image src={image} alt="UI UX Projects" />
       </div>
       <div className={styles.uxCardInfo}>
         <h1>{projectName}</h1>

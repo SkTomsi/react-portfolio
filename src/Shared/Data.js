@@ -80,40 +80,40 @@ export const DevelopmentProjects = [
   },
 ];
 
-/* export const GfxDesigns = [
+export const GfxDesigns = [
   {
     id: 1,
-    path: require("../assets/gfx/AbhishekUpmanyu.png"),
+    path: require("../../public/images/gfx/AbhishekUpmanyu.png"),
   },
   {
     id: 2,
-    path: require("../assets/gfx/AK_STORY.jpg"),
+    path: require("../../public/images/gfx/AK_STORY.jpg"),
   },
   {
     id: 3,
-    path: require("../assets/gfx/AtriumBanner.png"),
+    path: require("../../public/images/gfx/AtriumBanner.png"),
   },
   {
     id: 4,
-    path: require("../assets/gfx/ID.png"),
+    path: require("../../public/images/gfx/ID.png"),
   },
   {
     id: 5,
-    path: require("../assets/gfx/PublicityPoster.jpg"),
+    path: require("../../public/images/gfx/PublicityPoster.jpg"),
   },
   {
     id: 6,
-    path: require("../assets/gfx/AppPromo.png"),
+    path: require("../../public/images/gfx/AppPromo.png"),
   },
   {
     id: 7,
-    path: require("../assets/gfx/PajamaDay.png"),
+    path: require("../../public/images/gfx/PajamaDay.png"),
   },
   {
     id: 8,
-    path: require("../assets/gfx/RoseDay22ndApril.png"),
+    path: require("../../public/images/gfx/RoseDay22ndApril.png"),
   },
-]; */
+];
 
 export const BlogData = [
   {

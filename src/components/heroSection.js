@@ -1,5 +1,5 @@
 import React from "react";
-/* import TypeRoles from "./TypeRoles"; */
+
 import styles from "@/styles/HeroSection.module.scss";
 import { Link } from "react-scroll";
 

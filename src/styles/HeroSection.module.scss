@@ -1,9 +1,19 @@
 @media screen and (min-width: 60em) {
+  @keyframes taadaa {
+    0% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
+  }
   .heroSection {
     margin-top: 4rem;
     padding: 0 10rem;
 
     .heroContainer {
+      animation: taadaa 1.2s ease-out 0s 1 normal forwards running;
       display: flex;
       flex-direction: column;
       width: 90%;
