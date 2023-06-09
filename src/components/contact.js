@@ -16,7 +16,12 @@ import { Element } from "react-scroll";
 const ContactLink = ({ Icon, link }) => {
   return (
     <div className={styles.contactLinkContainer}>
-      <a href={link} target="_blank" rel="noreferrer">
+      <a
+        href={link}
+        target="_blank"
+        rel="noreferrer"
+        aria-label="My social links to contact me"
+      >
         <Icon className={styles.icon} />
       </a>
     </div>
