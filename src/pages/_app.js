@@ -1,10 +1,14 @@
 import Layout from "@/components/layout";
 import "@/styles/customAos.scss";
 import "@/styles/globals.scss";
+<<<<<<< HEAD
 import AOS from "aos";
 
 import "aos/dist/aos.css";
 
+=======
+import { Analytics } from "@vercel/analytics/react";
+>>>>>>> 0bff7a14768c6d702e30a0b0acbbe4bca9a0718c
 import Head from "next/head";
 import { useEffect } from "react";
 
@@ -25,6 +29,7 @@ export default function App({ Component, pageProps }) {
         <link rel="icon" href="/images/tomc.png" />
       </Head>
       <Component {...pageProps} />
+      <Analytics />
     </Layout>
   );
 }
