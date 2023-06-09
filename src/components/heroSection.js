@@ -8,20 +8,29 @@ const HeroSection = () => {
     <div className={styles.heroSection} id="hero-section">
       <div className={styles.heroContainer}>
         <div className={styles.heroIntro}>
-          <p>Hi! my name is Tomcy, I love</p>
-          <h1>
+          <p data-aos="fade-down">Hi! my name is Tomcy, I love</p>
+          <h1 data-aos="fade-down" data-aos-delay="200">
             building <span className={styles.heroColor}>products</span> and{" "}
             <span className={styles.heroColor2}>experiences</span>.
           </h1>
           <div className={styles.heroShortIntro}>
-            <p>
+            <p
+              data-aos="fade-down"
+              data-aos-delay="400"
+              data-aos-anchor=".heroIntro"
+            >
               Final Year Computer Engineering student from Mumbai, working as a
               freelance User Experience Designer since a year and currently
               building cool stuff with ReactJS and React Native
             </p>
           </div>
         </div>
-        <div className={styles.heroCta}>
+        <div
+          className={styles.heroCta}
+          data-aos="fade-down"
+          data-aos-delay="600"
+          data-aos-anchor=".heroShortIntro"
+        >
           <Link to="uiux" smooth={true} className={styles.heroCtaButtonLink}>
             <button>Check out my works!</button>
           </Link>
