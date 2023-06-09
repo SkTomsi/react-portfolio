@@ -1,10 +1,22 @@
 import Layout from "@/components/layout";
-
+import "@/styles/customAos.scss";
 import "@/styles/globals.scss";
+
+import AOS from "aos";
+import "aos/dist/aos.css";
 import { Analytics } from "@vercel/analytics/react";
+
 import Head from "next/head";
+import { useEffect } from "react";
 
 export default function App({ Component, pageProps }) {
+  useEffect(() => {
+    AOS.init({
+      disable: "phone",
+      duration: 1000,
+      easing: "ease-out-cubic",
+    });
+  }, []);
   return (
     <Layout>
       <Head>

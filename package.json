@@ -13,6 +13,7 @@
     "@mantine/carousel": "^6.0.10",
     "@mantine/core": "^6.0.10",
     "@mantine/hooks": "^6.0.10",
+    "aos": "^2.3.4",
     "@vercel/analytics": "^1.0.1",
     "embla-carousel-react": "^7.1.0",
     "eslint": "8.39.0",
