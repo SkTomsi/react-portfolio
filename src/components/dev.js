@@ -7,7 +7,11 @@ import Image from "next/image";
 const DevProjectCard = ({ development }) => {
   const { title, desc, link, stack, image } = development;
   return (
-    <div className={styles.devProjectCard}>
+    <div
+      className={styles.devProjectCard}
+      data-aos="fade-up"
+      data-aos-delay="200"
+    >
       <div className={styles.devProjectCardContainer}>
         <div className={styles.devProjectDetails}>
           <div className={styles.devProjectCardImage}>
@@ -34,7 +38,7 @@ const DevProjectCard = ({ development }) => {
 const DevProjects = () => {
   return (
     <div className={styles.devProjectContainer} id="dev-project">
-      <h1>Development Projects</h1>
+      <h1 data-aos="fade-up">Development Projects</h1>
       <div className={styles.devProjectGrid}>
         {DevelopmentProjects.map((development) => {
           return (

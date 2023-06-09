@@ -13,9 +13,13 @@ import { FaTwitter } from "react-icons/fa";
 
 import { Element } from "react-scroll";
 
-const ContactLink = ({ Icon, link }) => {
+const ContactLink = ({ Icon, link, delay }) => {
   return (
-    <div className={styles.contactLinkContainer}>
+    <div
+      className={styles.contactLinkContainer}
+      data-aos="fade-up"
+      data-aos-delay={delay}
+    >
       <a
         href={link}
         target="_blank"
@@ -33,8 +37,8 @@ const ContactSection = () => {
     <Element name="contact">
       <div className={styles.contactContainer}>
         <div className={styles.contactIntro}>
-          <h1>sold yet?</h1>
-          <p>
+          <h1 data-aos="fade-up">sold yet?</h1>
+          <p data-aos="fade-up" data-aos-delay="200">
             Thanks for stopping by, I’m currently looking to join a new team of
             creative designers and developers. If you think we might be a good
             fit for one another, please do connect with me online
@@ -44,14 +48,28 @@ const ContactSection = () => {
           <ContactLink
             Icon={FaLinkedinIn}
             link="https://www.linkedin.com/in/tomcyt/"
+            delay="400"
           />
           <ContactLink
             Icon={FaBehance}
             link="https://www.behance.net/tomcythomas"
+            delay="600"
           />
-          <ContactLink Icon={FaDribbble} link="https://dribbble.com/Tomcy48" />
-          <ContactLink Icon={FaGithub} link="https://github.com/TomcyT" />
-          <ContactLink Icon={FaTwitter} link="https://twitter.com/Tomcy48" />
+          <ContactLink
+            Icon={FaDribbble}
+            link="https://dribbble.com/Tomcy48"
+            delay="800"
+          />
+          <ContactLink
+            Icon={FaGithub}
+            link="https://github.com/TomcyT"
+            delay="1000"
+          />
+          <ContactLink
+            Icon={FaTwitter}
+            link="https://twitter.com/Tomcy48"
+            delay="1200"
+          />
         </div>
       </div>
     </Element>

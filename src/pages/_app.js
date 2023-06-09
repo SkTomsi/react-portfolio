@@ -3,10 +3,7 @@ import "@/styles/customAos.scss";
 import "@/styles/globals.scss";
 
 import AOS from "aos";
-
 import "aos/dist/aos.css";
-
-
 import { Analytics } from "@vercel/analytics/react";
 
 import Head from "next/head";

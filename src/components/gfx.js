@@ -9,10 +9,17 @@ import { FaAngleRight } from "react-icons/fa";
 export default function Gfx() {
   return (
     <div className={styles.gfxContainer} id="gfx">
-      <h1>Graphic Designs</h1>
+      <h1 data-aos="fade-up">Graphic Designs</h1>
 
       <div className={styles.gfxWorks}>
-        <Carousel withIndicators loop withControls={false} height={600}>
+        <Carousel
+          withIndicators
+          loop
+          withControls={false}
+          height={600}
+          data-aos="fade-up"
+          data-aos-delay="200"
+        >
           {GfxDesigns.map((design) => {
             return (
               <Carousel.Slide key={design.id} alt="gfx" align="center">
