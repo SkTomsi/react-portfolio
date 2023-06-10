@@ -12,7 +12,6 @@ import { useEffect } from "react";
 export default function App({ Component, pageProps }) {
   useEffect(() => {
     AOS.init({
-      disable: "phone",
       duration: 1000,
       easing: "ease-out-cubic",
     });
