@@ -13,7 +13,6 @@
     padding: 0 10rem;
 
     .heroContainer {
-      /* animation: taadaa 1.2s ease-out 0s 1 normal forwards running; */
       display: flex;
       flex-direction: column;
       width: 90%;
@@ -38,10 +37,10 @@
         }
         @keyframes background-pan {
           from {
-            background-position: 0% center;
+            background-position: 0% 200% center;
           }
           to {
-            background-position: -200% center;
+            background-position: -200% 0% center;
           }
         }
         @keyframes background-pan-reverse {
@@ -53,7 +52,7 @@
           }
         }
         .heroColor {
-          animation: background-pan 10s forwards infinite;
+          animation: background-pan 8s forwards infinite;
           font-weight: 800;
           color: transparent;
           background: linear-gradient(
@@ -85,7 +84,7 @@
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent;
           background-size: 200%;
-          animation: background-pan-reverse 12s linear infinite;
+          animation: background-pan-reverse 8s linear infinite;
         }
       }
       .heroShortIntro {
