@@ -181,7 +181,7 @@
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent;
           background-size: 200%;
-          animation: background-pan 10s linear infinite;
+          animation: background-pan 5s linear infinite;
         }
         .heroColor2 {
           font-weight: 800;
@@ -198,7 +198,7 @@
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent;
           background-size: 200%;
-          animation: background-pan-reverse 14s linear infinite;
+          animation: background-pan-reverse 8s linear infinite;
         }
         .heroShortIntro {
           > p {
