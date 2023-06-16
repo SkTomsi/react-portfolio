@@ -52,7 +52,7 @@
           }
         }
         .heroColor {
-          animation: background-pan 8s forwards infinite;
+          animation: background-pan 3s forwards infinite;
           font-weight: 800;
           color: transparent;
           background: linear-gradient(
@@ -84,7 +84,7 @@
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent;
           background-size: 200%;
-          animation: background-pan-reverse 5s linear infinite;
+          animation: background-pan-reverse 4s linear infinite;
         }
       }
       .heroShortIntro {
