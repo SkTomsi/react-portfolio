@@ -7,7 +7,7 @@ export default function Home() {
         <p className="text-white text-sm">Coming Soon</p>
       </div>
       <h1 className="text-primary font-bold text-5xl">
-        Tomc Designs v2 Lesssgoooo!
+        Tomc Designs v2 Lesssgooooo!
       </h1>
       <div>
         <div className="grid grid-cols-3 gap-4"></div>
