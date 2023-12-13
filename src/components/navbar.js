@@ -46,6 +46,11 @@ const Navbar = () => {
           >
             Resume
           </a>
+          <a href="https://react-portfolio-gxhk-tomcyt.vercel.app/">
+            <div className={styles.v2wip}>
+              <p>v2 wip lessgoo!!</p>
+            </div>
+          </a>
         </div>
       </div>
     </div>
